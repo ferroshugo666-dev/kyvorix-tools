@@ -1,0 +1,836 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JPG to WebP — Kyvorix</title>
+
+    <meta
+        name="description"
+        content="Convert JPG images to WebP format directly in your browser with Kyvorix. Fast, free and privacy-friendly."
+    >
+
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+    <meta
+        name="theme-color"
+        content="#111111"
+    >
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f7f7f7;
+            color: #111111;
+            line-height: 1.6;
+        }
+
+        a {
+            color: inherit;
+        }
+
+        header {
+            height: 74px;
+            padding: 0 40px;
+            background: #ffffff;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        .header-inner {
+            height: 100%;
+            max-width: 1120px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            color: #111111;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+
+        main {
+            max-width: 760px;
+            margin: 70px auto;
+            padding: 0 24px;
+        }
+
+        .eyebrow {
+            margin-bottom: 12px;
+            color: #666666;
+            font-size: 13px;
+            font-weight: 800;
+            letter-spacing: 1.5px;
+        }
+
+        h1 {
+            margin: 0 0 15px;
+            font-size: clamp(38px, 7vw, 56px);
+            line-height: 1.05;
+            letter-spacing: -2px;
+        }
+
+        .description {
+            max-width: 650px;
+            margin: 0 0 40px;
+            color: #666666;
+            font-size: 17px;
+        }
+
+        .converter {
+            padding: 30px;
+            background: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 18px;
+            box-shadow: 0 10px 35px rgba(0, 0, 0, 0.04);
+        }
+
+        .drop-zone {
+            padding: 55px 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            border: 2px dashed #cccccc;
+            border-radius: 14px;
+            background: #ffffff;
+            transition:
+                border-color 0.2s ease,
+                background 0.2s ease,
+                transform 0.2s ease;
+        }
+
+        .drop-zone.dragover {
+            border-color: #111111;
+            background: #fafafa;
+            transform: scale(1.01);
+        }
+
+        .drop-zone strong {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 19px;
+        }
+
+        .drop-zone span {
+            color: #777777;
+            font-size: 14px;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 46px;
+            padding: 13px 20px;
+            border: 0;
+            border-radius: 9px;
+            background: #111111;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            transition:
+                background 0.2s ease,
+                transform 0.2s ease,
+                opacity 0.2s ease;
+        }
+
+        .button:hover {
+            background: #333333;
+            transform: translateY(-1px);
+        }
+
+        .button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .file-info {
+            display: none;
+            margin-top: 20px;
+            padding: 16px;
+            border-radius: 11px;
+            background: #f2f2f2;
+        }
+
+        .file-name {
+            font-weight: 700;
+            word-break: break-word;
+        }
+
+        .file-size {
+            margin-top: 5px;
+            color: #777777;
+            font-size: 14px;
+        }
+
+        .controls {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .quality-row {
+            margin-bottom: 18px;
+        }
+
+        .quality-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .quality-label {
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .quality-value {
+            color: #666666;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        input[type="range"] {
+            width: 100%;
+            accent-color: #111111;
+            cursor: pointer;
+        }
+
+        #convertButton {
+            width: 100%;
+            margin-top: 5px;
+        }
+
+        .status {
+            min-height: 22px;
+            margin-top: 16px;
+            color: #555555;
+            font-size: 14px;
+        }
+
+        .result {
+            display: none;
+            margin-top: 20px;
+            padding: 18px;
+            border: 1px solid #dddddd;
+            border-radius: 12px;
+            background: #fafafa;
+        }
+
+        .result-title {
+            margin-bottom: 6px;
+            font-weight: 700;
+        }
+
+        .result-info {
+            color: #666666;
+            font-size: 14px;
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 30px;
+            color: #111111;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .back:hover {
+            text-decoration: underline;
+        }
+
+        .privacy-note {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 24px;
+            padding: 18px;
+            border-radius: 12px;
+            background: #eeeeee;
+            color: #555555;
+            font-size: 13px;
+        }
+
+        .privacy-icon {
+            width: 34px;
+            height: 34px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: #111111;
+            color: #ffffff;
+            font-weight: 800;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 0 20px;
+            }
+
+            main {
+                margin: 45px auto;
+                padding: 0 18px;
+            }
+
+            .converter {
+                padding: 20px;
+            }
+
+            .drop-zone {
+                padding: 45px 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-inner">
+        <a
+            class="logo"
+            href="../index.html"
+            aria-label="Kyvorix home"
+        >
+            KYVORIX
+        </a>
+    </div>
+</header>
+
+<main>
+
+    <div class="eyebrow">
+        IMAGE CONVERTER
+    </div>
+
+    <h1>
+        JPG to WebP
+    </h1>
+
+    <p class="description">
+        Convert JPG images to modern WebP format directly
+        in your browser. Fast, free and privacy-friendly.
+    </p>
+
+    <section class="converter">
+
+        <div
+            class="drop-zone"
+            id="dropZone"
+        >
+            <strong>
+                Drop your JPG image here
+            </strong>
+
+            <span>
+                or select a JPG image from your device
+            </span>
+        </div>
+
+        <label
+            class="button"
+            for="fileInput"
+        >
+            Choose JPG file
+        </label>
+
+        <input
+            id="fileInput"
+            type="file"
+            accept="image/jpeg,.jpg,.jpeg"
+        >
+
+        <div
+            class="file-info"
+            id="fileInfo"
+        >
+            <div
+                class="file-name"
+                id="fileName"
+            ></div>
+
+            <div
+                class="file-size"
+                id="fileSize"
+            ></div>
+        </div>
+
+        <div
+            class="controls"
+            id="controls"
+        >
+
+            <div class="quality-row">
+
+                <div class="quality-header">
+
+                    <span class="quality-label">
+                        WebP quality
+                    </span>
+
+                    <span
+                        class="quality-value"
+                        id="qualityValue"
+                    >
+                        85%
+                    </span>
+
+                </div>
+
+                <input
+                    id="quality"
+                    type="range"
+                    min="10"
+                    max="100"
+                    value="85"
+                >
+
+            </div>
+
+            <button
+                class="button"
+                id="convertButton"
+                type="button"
+            >
+                Convert to WebP
+            </button>
+
+        </div>
+
+        <div
+            class="status"
+            id="status"
+        ></div>
+
+        <div
+            class="result"
+            id="result"
+        >
+            <div class="result-title">
+                Conversion complete
+            </div>
+
+            <div
+                class="result-info"
+                id="resultInfo"
+            ></div>
+        </div>
+
+    </section>
+
+    <div class="privacy-note">
+
+        <div class="privacy-icon">
+            ✓
+        </div>
+
+        <div>
+            <strong>Your file stays on your device.</strong><br>
+            The conversion happens locally in your browser.
+        </div>
+
+    </div>
+
+    <a
+        class="back"
+        href="../index.html"
+    >
+        ← Back to Kyvorix Tools
+    </a>
+
+</main>
+
+<script>
+    "use strict";
+
+    const fileInput =
+        document.getElementById("fileInput");
+
+    const dropZone =
+        document.getElementById("dropZone");
+
+    const fileInfo =
+        document.getElementById("fileInfo");
+
+    const fileName =
+        document.getElementById("fileName");
+
+    const fileSize =
+        document.getElementById("fileSize");
+
+    const controls =
+        document.getElementById("controls");
+
+    const quality =
+        document.getElementById("quality");
+
+    const qualityValue =
+        document.getElementById("qualityValue");
+
+    const convertButton =
+        document.getElementById("convertButton");
+
+    const status =
+        document.getElementById("status");
+
+    const result =
+        document.getElementById("result");
+
+    const resultInfo =
+        document.getElementById("resultInfo");
+
+    let selectedFile = null;
+
+    function formatFileSize(bytes) {
+
+        if (bytes < 1024) {
+            return bytes + " B";
+        }
+
+        if (bytes < 1024 * 1024) {
+            return (bytes / 1024).toFixed(1) + " KB";
+        }
+
+        return (bytes / (1024 * 1024)).toFixed(1) + " MB";
+    }
+
+    function handleFile(file) {
+
+        if (!file) {
+            return;
+        }
+
+        const isJpg =
+            file.type === "image/jpeg" ||
+            /\.(jpg|jpeg)$/i.test(file.name);
+
+        if (!isJpg) {
+
+            selectedFile = null;
+
+            fileInfo.style.display = "none";
+            controls.style.display = "none";
+            result.style.display = "none";
+
+            status.textContent =
+                "Please select a JPG image.";
+
+            return;
+        }
+
+        selectedFile = file;
+
+        fileName.textContent =
+            file.name;
+
+        fileSize.textContent =
+            formatFileSize(file.size);
+
+        fileInfo.style.display =
+            "block";
+
+        controls.style.display =
+            "block";
+
+        result.style.display =
+            "none";
+
+        status.textContent =
+            "Image ready to convert.";
+    }
+
+    fileInput.addEventListener(
+        "change",
+        function () {
+            handleFile(this.files[0]);
+        }
+    );
+
+    dropZone.addEventListener(
+        "dragover",
+        function (event) {
+            event.preventDefault();
+
+            dropZone.classList.add(
+                "dragover"
+            );
+        }
+    );
+
+    dropZone.addEventListener(
+        "dragleave",
+        function () {
+            dropZone.classList.remove(
+                "dragover"
+            );
+        }
+    );
+
+    dropZone.addEventListener(
+        "drop",
+        function (event) {
+
+            event.preventDefault();
+
+            dropZone.classList.remove(
+                "dragover"
+            );
+
+            const file =
+                event.dataTransfer.files[0];
+
+            handleFile(file);
+        }
+    );
+
+    quality.addEventListener(
+        "input",
+        function () {
+
+            qualityValue.textContent =
+                this.value + "%";
+        }
+    );
+
+    convertButton.addEventListener(
+        "click",
+        function () {
+
+            if (!selectedFile) {
+
+                status.textContent =
+                    "Please select a JPG image first.";
+
+                return;
+            }
+
+            convertButton.disabled = true;
+
+            result.style.display = "none";
+
+            status.textContent =
+                "Converting image...";
+
+            const image =
+                new Image();
+
+            const sourceUrl =
+                URL.createObjectURL(
+                    selectedFile
+                );
+
+            image.onload =
+                function () {
+
+                    try {
+
+                        const canvas =
+                            document.createElement(
+                                "canvas"
+                            );
+
+                        canvas.width =
+                            image.naturalWidth;
+
+                        canvas.height =
+                            image.naturalHeight;
+
+                        const context =
+                            canvas.getContext(
+                                "2d"
+                            );
+
+                        if (!context) {
+                            throw new Error(
+                                "Canvas is not supported."
+                            );
+                        }
+
+                        context.drawImage(
+                            image,
+                            0,
+                            0,
+                            canvas.width,
+                            canvas.height
+                        );
+
+                        const qualityValueNumber =
+                            Number(quality.value) / 100;
+
+                        canvas.toBlob(
+                            function (blob) {
+
+                                if (!blob) {
+
+                                    status.textContent =
+                                        "Could not create WebP image.";
+
+                                    convertButton.disabled =
+                                        false;
+
+                                    URL.revokeObjectURL(
+                                        sourceUrl
+                                    );
+
+                                    return;
+                                }
+
+                                const downloadUrl =
+                                    URL.createObjectURL(
+                                        blob
+                                    );
+
+                                const link =
+                                    document.createElement(
+                                        "a"
+                                    );
+
+                                link.href =
+                                    downloadUrl;
+
+                                link.download =
+                                    selectedFile.name
+                                        .replace(
+                                            /\.(jpg|jpeg)$/i,
+                                            ""
+                                        )
+                                    + ".webp";
+
+                                link.style.display =
+                                    "none";
+
+                                document.body.appendChild(
+                                    link
+                                );
+
+                                link.click();
+
+                                document.body.removeChild(
+                                    link
+                                );
+
+                                const originalSize =
+                                    selectedFile.size;
+
+                                const convertedSize =
+                                    blob.size;
+
+                                const difference =
+                                    originalSize -
+                                    convertedSize;
+
+                                let message;
+
+                                if (difference > 0) {
+
+                                    const percentage =
+                                        (
+                                            difference /
+                                            originalSize
+                                        ) * 100;
+
+                                    message =
+                                        "WebP created at " +
+                                        formatFileSize(convertedSize) +
+                                        ". Approximately " +
+                                        percentage.toFixed(1) +
+                                        "% smaller than the original.";
+
+                                } else {
+
+                                    message =
+                                        "WebP created at " +
+                                        formatFileSize(convertedSize) +
+                                        ".";
+                                }
+
+                                resultInfo.textContent =
+                                    message;
+
+                                result.style.display =
+                                    "block";
+
+                                status.textContent =
+                                    "Conversion complete. WebP download started.";
+
+                                convertButton.disabled =
+                                    false;
+
+                                setTimeout(
+                                    function () {
+                                        URL.revokeObjectURL(
+                                            downloadUrl
+                                        );
+                                    },
+                                    5000
+                                );
+
+                            },
+                            "image/webp",
+                            qualityValueNumber
+                        );
+
+                    } catch (error) {
+
+                        console.error(error);
+
+                        status.textContent =
+                            "Conversion failed.";
+
+                        convertButton.disabled =
+                            false;
+                    }
+
+                    URL.revokeObjectURL(
+                        sourceUrl
+                    );
+                };
+
+            image.onerror =
+                function () {
+
+                    URL.revokeObjectURL(
+                        sourceUrl
+                    );
+
+                    status.textContent =
+                        "Unable to read the JPG image.";
+
+                    convertButton.disabled =
+                        false;
+                };
+
+            image.src =
+                sourceUrl;
+        }
+    );
+</script>
+
+</body>
+</html>
+```
