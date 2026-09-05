@@ -1,68 +1,40 @@
-﻿```html
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta charset="UTF-8">
+<title>Kyvorix Tools — Free Online Image & File Tools</title>
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+<meta name="description" content="Free online tools to convert, compress, resize, crop and optimize images and files. Fast browser-based tools with no software to install.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#111111">
 
-    <title>Kyvorix Tools — Free Online File Tools</title>
+<link rel="canonical" href="https://kyvorixapp.com/">
 
-    <meta
-        name="description"
-        content="Free online tools to convert, compress, resize and optimize your images. Fast, simple and privacy-friendly."
-    >
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kyvorix Tools — Free Online Image & File Tools">
+<meta property="og:description" content="Convert, compress, resize, crop and optimize images and files directly in your browser.">
+<meta property="og:url" content="https://kyvorixapp.com/">
+<meta property="og:site_name" content="Kyvorix Tools">
 
-    <meta
-        name="robots"
-        content="index, follow"
-    >
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"></script>
 
-    <meta
-        name="theme-color"
-        content="#111111"
-    >
+<script>
+window.dataLayer = window.dataLayer || [];
 
-    <!-- ==================================================
-         GOOGLE ANALYTICS
-         ================================================== -->
+function gtag() {
+    dataLayer.push(arguments);
+}
 
-    <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"
-    ></script>
+gtag("js", new Date());
+gtag("config", "G-KWWHTEZJR3");
+</script>
 
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag("js", new Date());
-
-        gtag("config", "G-KWWHTEZJR3");
-    </script>
-
-    <!-- ==================================================
-         KYVORIX STYLES
-         ================================================== -->
-
-    <link
-        rel="stylesheet"
-        href="style.css"
-    >
-
+<link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
-
 
 <header class="site-header">
 
@@ -95,491 +67,976 @@
 
 <main>
 
+<section class="hero">
 
-    <!-- ==================================================
-         HERO
-         ================================================== -->
+    <div class="container hero-content">
 
-    <section class="hero">
+        <div class="badge">
+            FREE ONLINE TOOLS
+        </div>
 
-        <div class="container hero-content">
+        <h1>
+            Free online tools for
+            <span>images & files.</span>
+        </h1>
 
-            <div class="badge">
-                FREE ONLINE TOOLS
+        <p>
+            Convert, compress, resize, crop and optimize your images
+            directly in your browser. Fast, simple and easy to use.
+        </p>
+
+        <a
+            href="#tools"
+            class="primary-button"
+            id="exploreToolsButton"
+        >
+            Explore tools
+
+            <span aria-hidden="true">
+                →
+            </span>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<section
+    id="tools"
+    class="tools-section"
+>
+
+    <div class="container">
+
+
+        <!-- =========================================
+             IMAGE CONVERTERS
+        ========================================== -->
+
+        <div class="section-header">
+
+            <div class="section-label">
+                CONVERT
             </div>
 
-            <h1>
-                Simple tools for
-                <span>everyday files.</span>
-            </h1>
+            <h2>
+                Image converters
+            </h2>
 
             <p>
-                Convert, compress and optimize your images
-                directly in your browser. Fast, simple and
-                designed with privacy in mind.
+                Convert images between popular formats quickly and easily.
             </p>
 
+        </div>
+
+
+        <div class="tools-grid">
+
+
+            <!-- JPG TO PNG -->
+
             <a
-                href="#tools"
-                class="primary-button"
-                id="exploreToolsButton"
+                href="tools/jpg-to-png.html"
+                class="tool-card"
+                data-tool="jpg-to-png"
+                aria-label="JPG to PNG converter"
             >
-                Explore tools
-                <span aria-hidden="true">→</span>
-            </a>
-
-        </div>
-
-    </section>
-
-
-    <!-- ==================================================
-         TOOLS
-         ================================================== -->
-
-    <section
-        id="tools"
-        class="tools-section"
-    >
-
-        <div class="container">
-
-            <div class="section-header">
-
-                <div class="section-label">
-                    IMAGE TOOLS
-                </div>
-
-                <h2>
-                    Get things done faster.
-                </h2>
-
-                <p>
-                    Useful image tools without unnecessary
-                    software or complicated settings.
-                </p>
-
-            </div>
-
-
-            <div class="tools-grid">
-
-
-                <!-- JPG TO PNG -->
-
-                <a
-                    href="tools/jpg-to-png.html"
-                    class="tool-card"
-                    data-tool="jpg-to-png"
-                    aria-label="JPG to PNG converter"
-                >
-
-                    <div
-                        class="tool-icon"
-                        aria-hidden="true"
-                    >
-                        JPG
-                    </div>
-
-                    <div class="tool-info">
-
-                        <h3>
-                            JPG to PNG
-                        </h3>
-
-                        <p>
-                            Convert JPG images to PNG format
-                            directly in your browser.
-                        </p>
-
-                    </div>
-
-                    <div
-                        class="tool-arrow"
-                        aria-hidden="true"
-                    >
-                        →
-                    </div>
-
-                </a>
-
-
-                <!-- PNG TO JPG -->
-
-                <a
-                    href="tools/png-to-jpg.html"
-                    class="tool-card"
-                    data-tool="png-to-jpg"
-                    aria-label="PNG to JPG converter"
-                >
-
-                    <div
-                        class="tool-icon"
-                        aria-hidden="true"
-                    >
-                        PNG
-                    </div>
-
-                    <div class="tool-info">
-
-                        <h3>
-                            PNG to JPG
-                        </h3>
-
-                        <p>
-                            Convert PNG images to JPG format
-                            quickly and easily.
-                        </p>
-
-                    </div>
-
-                    <div
-                        class="tool-arrow"
-                        aria-hidden="true"
-                    >
-                        →
-                    </div>
-
-                </a>
-
-
-                <!-- JPG TO WEBP -->
-
-                <div class="tool-card coming-soon">
-
-                    <div
-                        class="tool-icon"
-                        aria-hidden="true"
-                    >
-                        WEBP
-                    </div>
-
-                    <div class="tool-info">
-
-                        <h3>
-                            JPG to WebP
-                        </h3>
-
-                        <p>
-                            Convert JPG images to modern,
-                            web-friendly WebP format.
-                        </p>
-
-                    </div>
-
-                    <div class="coming-label">
-                        SOON
-                    </div>
-
-                </div>
-
-
-                <!-- IMAGE COMPRESSOR -->
-
-                <div class="tool-card coming-soon">
-
-                    <div
-                        class="tool-icon"
-                        aria-hidden="true"
-                    >
-                        IMG
-                    </div>
-
-                    <div class="tool-info">
-
-                        <h3>
-                            Image Compressor
-                        </h3>
-
-                        <p>
-                            Reduce image file size while
-                            keeping your images looking good.
-                        </p>
-
-                    </div>
-
-                    <div class="coming-label">
-                        SOON
-                    </div>
-
-                </div>
-
-
-                <!-- IMAGE RESIZER -->
-
-                <div class="tool-card coming-soon">
-
-                    <div
-                        class="tool-icon"
-                        aria-hidden="true"
-                    >
-                        SIZE
-                    </div>
-
-                    <div class="tool-info">
-
-                        <h3>
-                            Image Resizer
-                        </h3>
-
-                        <p>
-                            Resize images to the exact dimensions
-                            you need.
-                        </p>
-
-                    </div>
-
-                    <div class="coming-label">
-                        SOON
-                    </div>
-
-                </div>
-
-
-                <!-- IMAGE CROPPER -->
-
-                <div class="tool-card coming-soon">
-
-                    <div
-                        class="tool-icon"
-                        aria-hidden="true"
-                    >
-                        CROP
-                    </div>
-
-                    <div class="tool-info">
-
-                        <h3>
-                            Image Cropper
-                        </h3>
-
-                        <p>
-                            Crop and prepare your images
-                            for any platform.
-                        </p>
-
-                    </div>
-
-                    <div class="coming-label">
-                        SOON
-                    </div>
-
-                </div>
-
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ==================================================
-         PRIVACY
-         ================================================== -->
-
-    <section class="privacy-section">
-
-        <div class="container">
-
-            <div class="privacy-card">
 
                 <div
-                    class="privacy-icon"
+                    class="tool-icon"
                     aria-hidden="true"
                 >
-                    ✓
+                    JPG
                 </div>
 
-                <div>
+                <div class="tool-info">
 
                     <h3>
-                        Your files stay on your device.
+                        JPG to PNG
                     </h3>
 
                     <p>
-                        Kyvorix tools are designed to process
-                        your files directly in your browser.
-                        Your images don't need to be uploaded
-                        to a server.
+                        Convert JPG images to PNG format directly
+                        in your browser.
                     </p>
 
                 </div>
 
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ==================================================
-         ABOUT
-         ================================================== -->
-
-    <section
-        id="about"
-        class="about-section"
-    >
-
-        <div class="container about-grid">
-
-            <div>
-
-                <div class="section-label">
-                    WHY KYVORIX?
+                <div
+                    class="tool-arrow"
+                    aria-hidden="true"
+                >
+                    →
                 </div>
 
-                <h2>
-                    Tools without
-                    the headache.
-                </h2>
+            </a>
 
+
+            <!-- PNG TO JPG -->
+
+            <a
+                href="tools/png-to-jpg.html"
+                class="tool-card"
+                data-tool="png-to-jpg"
+                aria-label="PNG to JPG converter"
+            >
+
+                <div
+                    class="tool-icon"
+                    aria-hidden="true"
+                >
+                    PNG
+                </div>
+
+                <div class="tool-info">
+
+                    <h3>
+                        PNG to JPG
+                    </h3>
+
+                    <p>
+                        Convert PNG images to JPG format quickly
+                        and easily.
+                    </p>
+
+                </div>
+
+                <div
+                    class="tool-arrow"
+                    aria-hidden="true"
+                >
+                    →
+                </div>
+
+            </a>
+
+
+            <!-- JPG TO WEBP -->
+
+            <a
+                href="tools/jpg-to-webp.html"
+                class="tool-card"
+                data-tool="jpg-to-webp"
+                aria-label="JPG to WebP converter"
+            >
+
+                <div
+                    class="tool-icon"
+                    aria-hidden="true"
+                >
+                    WEBP
+                </div>
+
+                <div class="tool-info">
+
+                    <h3>
+                        JPG to WebP
+                    </h3>
+
+                    <p>
+                        Convert JPG images to the modern,
+                        web-friendly WebP format.
+                    </p>
+
+                </div>
+
+                <div
+                    class="tool-arrow"
+                    aria-hidden="true"
+                >
+                    →
+                </div>
+
+            </a>
+
+
+            <!-- WEBP TO JPG -->
+
+            <a
+                href="tools/webp-to-jpg.html"
+                class="tool-card"
+                data-tool="webp-to-jpg"
+                aria-label="WebP to JPG converter"
+            >
+
+                <div
+                    class="tool-icon"
+                    aria-hidden="true"
+                >
+                    WEBP
+                </div>
+
+                <div class="tool-info">
+
+                    <h3>
+                        WebP to JPG
+                    </h3>
+
+                    <p>
+                        Convert WebP images to JPG format with
+                        adjustable quality.
+                    </p>
+
+                </div>
+
+                <div
+                    class="tool-arrow"
+                    aria-hidden="true"
+                >
+                    →
+                </div>
+
+            </a>
+
+
+            <!-- PNG TO WEBP -->
+
+            <a
+                href="tools/png-to-webp.html"
+                class="tool-card"
+                data-tool="png-to-webp"
+                aria-label="PNG to WebP converter"
+            >
+
+                <div
+                    class="tool-icon"
+                    aria-hidden="true"
+                >
+                    PNG
+                </div>
+
+                <div class="tool-info">
+
+                    <h3>
+                        PNG to WebP
+                    </h3>
+
+                    <p>
+                        Convert PNG images to modern WebP format
+                        while supporting transparency.
+                    </p>
+
+                </div>
+
+                <div
+                    class="tool-arrow"
+                    aria-hidden="true"
+                >
+                    →
+                </div>
+
+            </a>
+
+
+            <!-- WEBP TO PNG -->
+
+            <a
+                href="tools/webp-to-png.html"
+                class="tool-card"
+                data-tool="webp-to-png"
+                aria-label="WebP to PNG converter"
+            >
+
+                <div
+                    class="tool-icon"
+                    aria-hidden="true"
+                >
+                    WEBP
+                </div>
+
+                <div class="tool-info">
+
+                    <h3>
+                        WebP to PNG
+                    </h3>
+
+                    <p>
+                        Convert WebP images to PNG while preserving
+                        transparent areas.
+                    </p>
+
+                </div>
+
+                <div
+                    class="tool-arrow"
+                    aria-hidden="true"
+                >
+                    →
+                </div>
+
+            </a>
+
+
+            <!-- HEIC TO JPG -->
+
+            <a
+                href="tools/heic-to-jpg.html"
+                class="tool-card"
+                data-tool="heic-to-jpg"
+                aria-label="HEIC to JPG converter"
+            >
+
+                <div
+                    class="tool-icon"
+                    aria-hidden="true"
+                >
+                    HEIC
+                </div>
+
+                <div class="tool-info">
+
+                    <h3>
+                        HEIC to JPG
+                    </h3>
+
+                    <p>
+                        Convert HEIC and HEIF photos to JPG directly
+                        in your browser.
+                    </p>
+
+                </div>
+
+                <div
+                    class="tool-arrow"
+                    aria-hidden="true"
+                >
+                    →
+                </div>
+
+            </a>
+
+
+        </div>
+
+
+        <!-- =========================================
+             IMAGE COMPRESSORS
+        ========================================== -->
+
+        <div class="section-header category-header">
+
+            <div class="section-label">
+                COMPRESS
             </div>
 
+            <h2>
+                Image compressors
+            </h2>
+
+            <p>
+                Reduce image file sizes for websites, apps
+                and social media.
+            </p>
+
+        </div>
+
+
+        <div class="tools-grid">
+
+
+            <!-- IMAGE COMPRESSOR -->
+
+            <a
+                href="tools/image-compressor.html"
+                class="tool-card"
+                data-tool="image-compressor"
+                aria-label="Image compressor"
+            >
+
+                <div
+                    class="tool-icon"
+                    aria-hidden="true"
+                >
+                    IMG
+                </div>
+
+                <div class="tool-info">
+
+                    <h3>
+                        Image Compressor
+                    </h3>
+
+                    <p>
+                        Compress JPG, PNG and WebP images
+                        directly in your browser.
+                    </p>
+
+                </div>
+
+                <div
+                    class="tool-arrow"
+                    aria-hidden="true"
+                >
+                    →
+                </div>
+
+            </a>
+
+
+            <!-- JPG COMPRESSOR -->
+
+            <a
+                href="tools/jpg-compressor.html"
+                class="tool-card"
+                data-tool="jpg-compressor"
+                aria-label="JPG compressor"
+            >
+
+                <div
+                    class="tool-icon"
+                    aria-hidden="true"
+                >
+                    JPG
+                </div>
+
+                <div class="tool-info">
+
+                    <h3>
+                        JPG Compressor
+                    </h3>
+
+                    <p>
+                        Reduce JPG file size while controlling
+                        image quality.
+                    </p>
+
+                </div>
+
+                <div
+                    class="tool-arrow"
+                    aria-hidden="true"
+                >
+                    →
+                </div>
+
+            </a>
+
+
+            <!-- PNG COMPRESSOR -->
+
+            <a
+                href="tools/png-compressor.html"
+                class="tool-card"
+                data-tool="png-compressor"
+                aria-label="PNG compressor"
+            >
+
+                <div
+                    class="tool-icon"
+                    aria-hidden="true"
+                >
+                    PNG
+                </div>
+
+                <div class="tool-info">
+
+                    <h3>
+                        PNG Compressor
+                    </h3>
+
+                    <p>
+                        Optimize PNG images and reduce unnecessary
+                        file size.
+                    </p>
+
+                </div>
+
+                <div
+                    class="tool-arrow"
+                    aria-hidden="true"
+                >
+                    →
+                </div>
+
+            </a>
+
+
+            <!-- WEBP COMPRESSOR -->
+
+            <a
+                href="tools/webp-compressor.html"
+                class="tool-card"
+                data-tool="webp-compressor"
+                aria-label="WebP compressor"
+            >
+
+                <div
+                    class="tool-icon"
+                    aria-hidden="true"
+                >
+                    WEBP
+                </div>
+
+                <div class="tool-info">
+
+                    <h3>
+                        WebP Compressor
+                    </h3>
+
+                    <p>
+                        Compress WebP images with adjustable
+                        quality settings.
+                    </p>
+
+                </div>
+
+                <div
+                    class="tool-arrow"
+                    aria-hidden="true"
+                >
+                    →
+                </div>
+
+            </a>
+
+
+        </div>
+
+
+        <!-- =========================================
+             EDITING TOOLS
+        ========================================== -->
+
+        <div class="section-header category-header">
+
+            <div class="section-label">
+                EDIT
+            </div>
+
+            <h2>
+                Resize & crop images
+            </h2>
+
+            <p>
+                Prepare images for websites, social media
+                and other platforms.
+            </p>
+
+        </div>
+
+
+        <div class="tools-grid">
+
+
+            <!-- IMAGE RESIZER -->
+
+            <a
+                href="tools/image-resizer.html"
+                class="tool-card"
+                data-tool="image-resizer"
+                aria-label="Image resizer"
+            >
+
+                <div
+                    class="tool-icon"
+                    aria-hidden="true"
+                >
+                    SIZE
+                </div>
+
+                <div class="tool-info">
+
+                    <h3>
+                        Image Resizer
+                    </h3>
+
+                    <p>
+                        Resize images to exact dimensions or
+                        popular platform presets.
+                    </p>
+
+                </div>
+
+                <div
+                    class="tool-arrow"
+                    aria-hidden="true"
+                >
+                    →
+                </div>
+
+            </a>
+
+
+            <!-- IMAGE CROPPER -->
+
+            <a
+                href="tools/image-cropper.html"
+                class="tool-card"
+                data-tool="image-cropper"
+                aria-label="Image cropper"
+            >
+
+                <div
+                    class="tool-icon"
+                    aria-hidden="true"
+                >
+                    CROP
+                </div>
+
+                <div class="tool-info">
+
+                    <h3>
+                        Image Cropper
+                    </h3>
+
+                    <p>
+                        Crop images using custom or popular
+                        aspect ratios.
+                    </p>
+
+                </div>
+
+                <div
+                    class="tool-arrow"
+                    aria-hidden="true"
+                >
+                    →
+                </div>
+
+            </a>
+
+
+        </div>
+
+
+        <!-- =========================================
+             PDF TOOLS
+        ========================================== -->
+
+        <div class="section-header category-header">
+
+            <div class="section-label">
+                PDF
+            </div>
+
+            <h2>
+                Image & PDF tools
+            </h2>
+
+            <p>
+                Convert images and PDF pages directly
+                in your browser.
+            </p>
+
+        </div>
+
+
+        <div class="tools-grid">
+
+
+            <!-- IMAGE TO PDF -->
+
+            <a
+                href="tools/image-to-pdf.html"
+                class="tool-card"
+                data-tool="image-to-pdf"
+                aria-label="Image to PDF converter"
+            >
+
+                <div
+                    class="tool-icon"
+                    aria-hidden="true"
+                >
+                    PDF
+                </div>
+
+                <div class="tool-info">
+
+                    <h3>
+                        Image to PDF
+                    </h3>
+
+                    <p>
+                        Convert multiple JPG, PNG or WebP images
+                        into one PDF.
+                    </p>
+
+                </div>
+
+                <div
+                    class="tool-arrow"
+                    aria-hidden="true"
+                >
+                    →
+                </div>
+
+            </a>
+
+
+            <!-- PDF TO JPG -->
+
+            <a
+                href="tools/pdf-to-jpg.html"
+                class="tool-card"
+                data-tool="pdf-to-jpg"
+                aria-label="PDF to JPG converter"
+            >
+
+                <div
+                    class="tool-icon"
+                    aria-hidden="true"
+                >
+                    PDF
+                </div>
+
+                <div class="tool-info">
+
+                    <h3>
+                        PDF to JPG
+                    </h3>
+
+                    <p>
+                        Convert PDF pages into separate
+                        JPG images.
+                    </p>
+
+                </div>
+
+                <div
+                    class="tool-arrow"
+                    aria-hidden="true"
+                >
+                    →
+                </div>
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     PRIVACY / BROWSER PROCESSING
+========================================== -->
+
+<section class="privacy-section">
+
+    <div class="container">
+
+        <div class="privacy-card">
+
+            <div
+                class="privacy-icon"
+                aria-hidden="true"
+            >
+                ✓
+            </div>
 
             <div>
 
-                <p>
-                    Kyvorix is building a collection of
-                    simple online tools designed to help
-                    people get everyday digital tasks
-                    done faster.
-                </p>
+                <h3>
+                    Browser-based processing
+                </h3>
 
                 <p>
-                    No complicated software. No unnecessary
-                    downloads. No accounts required for
-                    basic tools.
-                </p>
-
-                <p>
-                    Just useful tools that work directly
-                    in your browser.
+                    Kyvorix tools are designed to process supported
+                    files directly in your browser whenever possible,
+                    so your files do not need to be uploaded to a
+                    remote server.
                 </p>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     ABOUT
+========================================== -->
+
+<section
+    id="about"
+    class="about-section"
+>
+
+    <div class="container about-grid">
+
+
+        <div>
+
+            <div class="section-label">
+                WHY KYVORIX?
+            </div>
+
+            <h2>
+                Useful tools without the headache.
+            </h2>
+
+        </div>
+
+
+        <div>
+
+            <p>
+                Kyvorix is a collection of simple online tools
+                designed to help people complete everyday digital
+                tasks faster.
+            </p>
+
+            <p>
+                Convert images, reduce file sizes, resize photos,
+                crop graphics and work with PDFs without installing
+                complicated software.
+            </p>
+
+            <p>
+                No account is required for basic tools.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
 
 
 </main>
 
 
-<!-- ==================================================
+<!-- =========================================
      FOOTER
-     ================================================== -->
+========================================== -->
 
-<footer>
+<footer class="site-footer">
 
-    <div class="container footer-content">
+    <div class="container">
 
-        <div>
+        <div class="footer-top">
 
-            <a
-                href="index.html"
-                class="footer-logo"
+
+            <div>
+
+                <a
+                    href="index.html"
+                    class="logo"
+                >
+                    KYVORIX
+                </a>
+
+                <p>
+                    Free online tools for images and files.
+                </p>
+
+            </div>
+
+
+            <nav
+                class="footer-links"
+                aria-label="Footer navigation"
             >
-                KYVORIX
-            </a>
+
+                <a href="#tools">
+                    Tools
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+            </nav>
+
+
+        </div>
+
+
+        <div class="footer-bottom">
 
             <p>
-                Simple tools for everyday digital work.
+                © 2026 Kyvorix. All rights reserved.
             </p>
 
         </div>
 
 
-        <div class="footer-links">
-
-            <a href="#about">
-                About
-            </a>
-
-            <a href="#tools">
-                Tools
-            </a>
-
-        </div>
-
-    </div>
-
-
-    <div class="copyright">
-        © 2026 Kyvorix. All rights reserved.
     </div>
 
 </footer>
 
 
-<!-- ==================================================
-     KYVORIX SCRIPT
-     ================================================== -->
-
 <script src="script.js"></script>
 
 
-<!-- ==================================================
-     GOOGLE ANALYTICS EVENTS
-     ================================================== -->
-
 <script>
 
-    // Track clicks on the "Explore tools" button
-    const exploreToolsButton =
-        document.getElementById("exploreToolsButton");
+const exploreToolsButton =
+    document.getElementById(
+        "exploreToolsButton"
+    );
 
-    if (exploreToolsButton) {
 
-        exploreToolsButton.addEventListener("click", function () {
+if (exploreToolsButton) {
+
+    exploreToolsButton.addEventListener(
+        "click",
+        function () {
 
             if (typeof gtag === "function") {
 
-                gtag("event", "explore_tools", {
-                    event_category: "navigation",
-                    event_label: "Explore tools"
-                });
+                gtag(
+                    "event",
+                    "explore_tools",
+                    {
+                        event_category: "navigation",
+                        event_label: "Explore tools"
+                    }
+                );
 
             }
 
-        });
+        }
+    );
 
-    }
+}
 
 
-    // Track which Kyvorix tool the visitor opens
-    document
-        .querySelectorAll(".tool-card[data-tool]")
-        .forEach(function (tool) {
+document
+    .querySelectorAll(
+        ".tool-card[data-tool]"
+    )
+    .forEach(function (tool) {
 
-            tool.addEventListener("click", function () {
+        tool.addEventListener(
+            "click",
+            function () {
 
                 const toolName =
-                    this.getAttribute("data-tool");
+                    this.getAttribute(
+                        "data-tool"
+                    );
+
 
                 if (typeof gtag === "function") {
 
-                    gtag("event", "tool_open", {
-
-                        tool_name: toolName,
-
-                        event_category: "tools",
-
-                        event_label: toolName
-
-                    });
+                    gtag(
+                        "event",
+                        "tool_open",
+                        {
+                            tool_name: toolName,
+                            event_category: "tools",
+                            event_label: toolName
+                        }
+                    );
 
                 }
 
-            });
+            }
+        );
 
-        });
+    });
 
 </script>
 
-
 </body>
 </html>
-```
