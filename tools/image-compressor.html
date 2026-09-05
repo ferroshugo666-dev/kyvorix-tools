@@ -9,11 +9,11 @@
         content="width=device-width, initial-scale=1.0"
     >
 
-    <title>JPG to WebP Converter — Free Online | Kyvorix</title>
+    <title>Image Compressor — Free Online | Kyvorix</title>
 
     <meta
         name="description"
-        content="Convert JPG and JPEG images to WebP online for free. Process your images directly in your browser with Kyvorix. No software or account required."
+        content="Compress JPG, PNG and WebP images online for free. Reduce image file size directly in your browser with Kyvorix. No upload or account required."
     >
 
     <meta
@@ -28,18 +28,17 @@
 
     <link
         rel="canonical"
-        href="https://YOUR-DOMAIN.com/tools/jpg-to-webp.html"
+        href="https://YOUR-DOMAIN.com/tools/image-compressor.html"
     >
 
-    <!-- Open Graph -->
     <meta
         property="og:title"
-        content="JPG to WebP Converter — Free Online | Kyvorix"
+        content="Image Compressor — Free Online | Kyvorix"
     >
 
     <meta
         property="og:description"
-        content="Convert JPG and JPEG images to WebP online for free. Process your images directly in your browser."
+        content="Compress JPG, PNG and WebP images online for free. Process images directly in your browser."
     >
 
     <meta
@@ -49,7 +48,7 @@
 
     <meta
         property="og:url"
-        content="https://YOUR-DOMAIN.com/tools/jpg-to-webp.html"
+        content="https://YOUR-DOMAIN.com/tools/image-compressor.html"
     >
 
     <!-- Google Analytics -->
@@ -74,11 +73,11 @@
     {
         "@context": "https://schema.org",
         "@type": "WebApplication",
-        "name": "JPG to WebP Converter",
-        "url": "https://YOUR-DOMAIN.com/tools/jpg-to-webp.html",
+        "name": "Image Compressor",
+        "url": "https://YOUR-DOMAIN.com/tools/image-compressor.html",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
-        "description": "Free online JPG to WebP converter that processes images directly in the browser.",
+        "description": "Free online image compressor for reducing the size of JPG, PNG and WebP images directly in the browser.",
         "offers": {
             "@type": "Offer",
             "price": "0",
@@ -95,34 +94,34 @@
         "mainEntity": [
             {
                 "@type": "Question",
-                "name": "Can I convert JPG to WebP for free?",
+                "name": "Can I compress images for free?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes. Kyvorix provides a free JPG to WebP converter that works directly in your browser."
+                    "text": "Yes. Kyvorix provides a free image compressor that works directly in your browser."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Are my JPG files uploaded to a server?",
+                "name": "Are my images uploaded to a server?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "No. The conversion is performed directly in your browser, so your JPG image does not need to be uploaded to a Kyvorix server."
+                    "text": "No. Image processing is performed directly in your browser, so your image does not need to be uploaded to a Kyvorix server."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Can I convert JPEG files to WebP?",
+                "name": "Which image formats are supported?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes. The converter accepts both JPG and JPEG image files."
+                    "text": "The compressor accepts JPG, JPEG, PNG and WebP images."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Can I choose the WebP quality?",
+                "name": "How much can I reduce an image?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes. You can adjust the WebP quality before converting. Higher quality generally produces a larger file."
+                    "text": "The amount of compression depends on the original image, format and selected quality. Some images can become substantially smaller while others may see a smaller reduction."
                 }
             }
         ]
@@ -353,7 +352,7 @@
             font-size: 13px;
         }
 
-        #convertButton {
+        #compressButton {
             display: none;
             width: 100%;
             margin-top: 20px;
@@ -374,6 +373,39 @@
             color: #a32121;
         }
 
+        .result {
+            display: none;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 12px;
+            background: #f4f4f4;
+        }
+
+        .result-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+        }
+
+        .result-card {
+            padding: 15px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+
+        .result-label {
+            display: block;
+            color: #777;
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+
+        .result-value {
+            font-size: 19px;
+            font-weight: bold;
+        }
+
         .privacy-note {
             display: flex;
             gap: 12px;
@@ -389,6 +421,12 @@
             flex: 0 0 auto;
             font-weight: bold;
             color: #111;
+        }
+
+        .download-button {
+            display: none;
+            width: 100%;
+            margin-top: 15px;
         }
 
         .content-section {
@@ -444,28 +482,26 @@
             margin: 0;
         }
 
-        .comparison {
-            width: 100%;
-            border-collapse: collapse;
+        .format-list {
+            display: grid;
+            gap: 12px;
             margin-top: 24px;
+        }
+
+        .format-item {
             background: #fff;
             border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 18px;
         }
 
-        .comparison th,
-        .comparison td {
-            padding: 15px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
+        .format-item strong {
+            display: block;
+            margin-bottom: 5px;
         }
 
-        .comparison th {
-            font-size: 14px;
-            background: #f2f2f2;
-        }
-
-        .comparison tr:last-child td {
-            border-bottom: 0;
+        .format-item span {
+            color: #666;
         }
 
         .faq {
@@ -561,6 +597,7 @@
         }
 
         @media (max-width: 700px) {
+
             header {
                 padding: 20px;
             }
@@ -581,17 +618,12 @@
                 padding: 20px;
             }
 
-            .related-tools {
+            .result-grid {
                 grid-template-columns: 1fr;
             }
 
-            .comparison {
-                font-size: 14px;
-            }
-
-            .comparison th,
-            .comparison td {
-                padding: 12px 10px;
+            .related-tools {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -601,12 +633,14 @@
 
 <header>
     <div class="header-inner">
+
         <a
             href="../index.html"
             aria-label="Kyvorix Tools home"
         >
             KYVORIX
         </a>
+
     </div>
 </header>
 
@@ -615,18 +649,17 @@
     <section class="hero">
 
         <div class="eyebrow">
-            IMAGE CONVERTER
+            IMAGE OPTIMIZER
         </div>
 
         <h1>
-            JPG to WebP Converter
+            Image Compressor
         </h1>
 
         <p class="description">
-            Convert JPG and JPEG images to WebP online for free.
-            Your image is processed directly in your browser,
-            so you can convert it without uploading the file
-            to a server.
+            Compress JPG, PNG and WebP images online for free.
+            Reduce image file size directly in your browser
+            without uploading your files to a server.
         </p>
 
     </section>
@@ -640,7 +673,7 @@
             id="converter-heading"
             style="position:absolute;left:-9999px;"
         >
-            JPG to WebP converter tool
+            Image compression tool
         </h2>
 
         <label
@@ -649,27 +682,29 @@
             for="fileInput"
             tabindex="0"
         >
+
             <strong>
-                Drop your JPG here
+                Drop your image here
             </strong>
 
             <span>
-                or click to choose a JPG or JPEG image
+                or click to choose a JPG, PNG or WebP image
             </span>
+
         </label>
 
         <input
             id="fileInput"
             type="file"
-            accept="image/jpeg,.jpg,.jpeg"
-            aria-label="Choose a JPG or JPEG image"
+            accept="image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp"
+            aria-label="Choose an image"
         >
 
         <label
             class="button choose-button"
             for="fileInput"
         >
-            Choose JPG file
+            Choose image
         </label>
 
         <div
@@ -677,6 +712,7 @@
             id="fileInfo"
             aria-live="polite"
         >
+
             <div
                 class="file-name"
                 id="fileName"
@@ -686,44 +722,49 @@
                 class="file-size"
                 id="fileSize"
             ></div>
+
         </div>
 
         <div
             class="quality-control"
             id="qualityControl"
         >
+
             <div class="quality-header">
+
                 <label for="quality">
-                    WebP quality
+                    Compression quality
                 </label>
 
                 <span id="qualityValue">
-                    90%
+                    80%
                 </span>
+
             </div>
 
             <input
                 id="quality"
                 type="range"
-                min="50"
+                min="40"
                 max="100"
-                value="90"
+                value="80"
                 step="1"
-                aria-label="WebP quality"
+                aria-label="Compression quality"
             >
 
             <p class="quality-help">
-                Higher quality generally produces a larger file.
+                Lower values usually create smaller files.
             </p>
+
         </div>
 
         <button
             class="button"
-            id="convertButton"
+            id="compressButton"
             type="button"
             disabled
         >
-            Convert to WebP
+            Compress image
         </button>
 
         <div
@@ -733,7 +774,67 @@
             aria-live="polite"
         ></div>
 
+        <div
+            class="result"
+            id="result"
+            aria-live="polite"
+        >
+
+            <div class="result-grid">
+
+                <div class="result-card">
+                    <span class="result-label">
+                        Original
+                    </span>
+
+                    <span
+                        class="result-value"
+                        id="originalSize"
+                    >
+                        —
+                    </span>
+                </div>
+
+                <div class="result-card">
+                    <span class="result-label">
+                        Compressed
+                    </span>
+
+                    <span
+                        class="result-value"
+                        id="compressedSize"
+                    >
+                        —
+                    </span>
+                </div>
+
+                <div class="result-card">
+                    <span class="result-label">
+                        Saved
+                    </span>
+
+                    <span
+                        class="result-value"
+                        id="savedPercent"
+                    >
+                        —
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <button
+            class="button download-button"
+            id="downloadButton"
+            type="button"
+        >
+            Download compressed image
+        </button>
+
         <div class="privacy-note">
+
             <div
                 class="privacy-icon"
                 aria-hidden="true"
@@ -744,9 +845,10 @@
             <div>
                 <strong>Your file stays on your device.</strong>
                 <br>
-                The conversion runs directly in your browser.
-                Your JPG does not need to be uploaded to Kyvorix.
+                Compression runs directly in your browser.
+                Your image does not need to be uploaded to Kyvorix.
             </div>
+
         </div>
 
     </section>
@@ -754,54 +856,77 @@
     <section class="content-section">
 
         <h2>
-            How to convert JPG to WebP
+            How to compress an image
         </h2>
 
         <p>
-            Convert a JPG or JPEG image to WebP in just a few steps.
-            No software installation or account is required.
+            Reduce image file size in a few simple steps.
+            No account or software installation is required.
         </p>
 
         <div class="steps">
 
             <div class="step">
-                <div class="step-number">1</div>
+
+                <div class="step-number">
+                    1
+                </div>
 
                 <div>
-                    <h3>Choose your JPG image</h3>
+
+                    <h3>
+                        Choose your image
+                    </h3>
 
                     <p>
-                        Select a JPG or JPEG file from your device,
-                        or drag it into the converter.
+                        Select a JPG, PNG or WebP image from
+                        your device, or drag it into the tool.
                     </p>
+
                 </div>
+
             </div>
 
             <div class="step">
-                <div class="step-number">2</div>
+
+                <div class="step-number">
+                    2
+                </div>
 
                 <div>
-                    <h3>Choose WebP quality</h3>
+
+                    <h3>
+                        Adjust compression quality
+                    </h3>
 
                     <p>
-                        Adjust the quality setting according to
-                        your needs. Higher quality generally creates
-                        a larger file.
+                        Choose the quality level you want.
+                        Lower quality can produce a smaller file.
                     </p>
+
                 </div>
+
             </div>
 
             <div class="step">
-                <div class="step-number">3</div>
+
+                <div class="step-number">
+                    3
+                </div>
 
                 <div>
-                    <h3>Convert and download</h3>
+
+                    <h3>
+                        Compress and download
+                    </h3>
 
                     <p>
-                        Click Convert to WebP and your converted
-                        image will be downloaded to your device.
+                        Compress the image and download the
+                        resulting file directly to your device.
                     </p>
+
                 </div>
+
             </div>
 
         </div>
@@ -811,19 +936,20 @@
     <section class="content-section">
 
         <h2>
-            Why convert JPG to WebP?
+            Why compress images?
         </h2>
 
         <p>
-            WebP is an image format designed for the web and can
-            provide smaller files than JPEG in many situations
-            while maintaining useful visual quality.
+            Large image files can take more storage space and
+            require more data to transfer. Compressing images
+            can reduce file size when you need a smaller file
+            for a website, email, upload, or other digital workflow.
         </p>
 
         <p>
-            Converting JPG images to WebP can be useful when
-            optimizing images for websites and other web-based
-            applications where file size matters.
+            The best compression setting depends on the image.
+            Photographs, screenshots, illustrations and other
+            graphics can respond differently to compression.
         </p>
 
     </section>
@@ -831,101 +957,115 @@
     <section class="content-section">
 
         <h2>
-            JPG vs WebP
+            Supported image formats
         </h2>
 
-        <table class="comparison">
+        <div class="format-list">
 
-            <thead>
-                <tr>
-                    <th>Feature</th>
-                    <th>JPG</th>
-                    <th>WebP</th>
-                </tr>
-            </thead>
+            <div class="format-item">
 
-            <tbody>
+                <strong>
+                    JPG / JPEG
+                </strong>
 
-                <tr>
-                    <td>Compression</td>
-                    <td>Lossy</td>
-                    <td>Lossy or lossless</td>
-                </tr>
+                <span>
+                    Commonly used for photographs and other
+                    images where smaller file sizes are useful.
+                </span>
 
-                <tr>
-                    <td>Transparency</td>
-                    <td>Not supported</td>
-                    <td>Supported</td>
-                </tr>
+            </div>
 
-                <tr>
-                    <td>Web use</td>
-                    <td>Widely supported</td>
-                    <td>Designed for modern web use</td>
-                </tr>
+            <div class="format-item">
 
-                <tr>
-                    <td>Typical file size</td>
-                    <td>Often larger</td>
-                    <td>Can be smaller</td>
-                </tr>
+                <strong>
+                    PNG
+                </strong>
 
-            </tbody>
+                <span>
+                    Commonly used for graphics, screenshots
+                    and images that may require transparency.
+                </span>
 
-        </table>
+            </div>
+
+            <div class="format-item">
+
+                <strong>
+                    WebP
+                </strong>
+
+                <span>
+                    A modern image format commonly used for
+                    web content.
+                </span>
+
+            </div>
+
+        </div>
 
     </section>
 
     <section class="content-section">
 
         <h2>
-            JPG to WebP Converter FAQ
+            Image Compressor FAQ
         </h2>
 
         <div class="faq">
 
             <details>
+
                 <summary>
-                    Can I convert JPG to WebP for free?
+                    Can I compress images for free?
                 </summary>
 
                 <p>
-                    Yes. Kyvorix provides a free JPG to WebP
-                    converter that works directly in your browser.
+                    Yes. Kyvorix provides a free image compressor
+                    that works directly in your browser.
                 </p>
+
             </details>
 
             <details>
+
                 <summary>
-                    Are my JPG files uploaded to a server?
+                    Are my images uploaded to a server?
                 </summary>
 
                 <p>
-                    No. The conversion is performed directly in
-                    your browser, so the JPG image does not need
+                    No. Image processing is performed directly
+                    in your browser, so the image does not need
                     to be uploaded to a Kyvorix server.
                 </p>
+
             </details>
 
             <details>
+
                 <summary>
-                    Can I convert JPEG files to WebP?
+                    Which image formats are supported?
                 </summary>
 
                 <p>
-                    Yes. Both JPG and JPEG files are supported.
+                    The compressor accepts JPG, JPEG, PNG and
+                    WebP images.
                 </p>
+
             </details>
 
             <details>
+
                 <summary>
-                    Can I choose the WebP quality?
+                    How much can I reduce an image?
                 </summary>
 
                 <p>
-                    Yes. Use the quality slider before converting.
-                    Higher quality generally results in a larger file.
+                    The result depends on the original image,
+                    format and selected quality. Some images
+                    can become substantially smaller while
+                    others may see a smaller reduction.
                 </p>
+
             </details>
 
         </div>
@@ -944,10 +1084,12 @@
                 class="related-tool"
                 href="jpg-to-png.html"
             >
-                <strong>JPG to PNG</strong>
+                <strong>
+                    JPG to PNG
+                </strong>
 
                 <span>
-                    Convert JPG and JPEG images to PNG format.
+                    Convert JPG and JPEG images to PNG.
                 </span>
             </a>
 
@@ -955,21 +1097,38 @@
                 class="related-tool"
                 href="png-to-jpg.html"
             >
-                <strong>PNG to JPG</strong>
+                <strong>
+                    PNG to JPG
+                </strong>
 
                 <span>
-                    Convert PNG images to JPG format.
+                    Convert PNG images to JPG.
                 </span>
             </a>
 
             <a
                 class="related-tool"
-                href="../index.html#tools"
+                href="jpg-to-webp.html"
             >
-                <strong>All Kyvorix tools</strong>
+                <strong>
+                    JPG to WebP
+                </strong>
 
                 <span>
-                    Explore more free online image tools.
+                    Convert JPG and JPEG images to WebP.
+                </span>
+            </a>
+
+            <a
+                class="related-tool"
+                href="webp-to-jpg.html"
+            >
+                <strong>
+                    WebP to JPG
+                </strong>
+
+                <span>
+                    Convert WebP images to JPG.
                 </span>
             </a>
 
@@ -1030,15 +1189,33 @@
     const qualityValue =
         document.getElementById("qualityValue");
 
-    const convertButton =
-        document.getElementById("convertButton");
+    const compressButton =
+        document.getElementById("compressButton");
+
+    const downloadButton =
+        document.getElementById("downloadButton");
 
     const status =
         document.getElementById("status");
 
+    const result =
+        document.getElementById("result");
+
+    const originalSize =
+        document.getElementById("originalSize");
+
+    const compressedSize =
+        document.getElementById("compressedSize");
+
+    const savedPercent =
+        document.getElementById("savedPercent");
+
     let selectedFile = null;
+    let compressedBlob = null;
+    let compressedDownloadUrl = null;
 
     function formatFileSize(bytes) {
+
         if (bytes < 1024) {
             return bytes + " B";
         }
@@ -1054,26 +1231,79 @@
         ).toFixed(1) + " MB";
     }
 
-    function setStatus(message, type = "") {
-        status.textContent = message;
-        status.className = "status";
+    function setStatus(
+        message,
+        type = ""
+    ) {
+
+        status.textContent =
+            message;
+
+        status.className =
+            "status";
 
         if (type) {
-            status.classList.add(type);
+            status.classList.add(
+                type
+            );
+        }
+    }
+
+    function cleanupDownloadUrl() {
+
+        if (compressedDownloadUrl) {
+
+            URL.revokeObjectURL(
+                compressedDownloadUrl
+            );
+
+            compressedDownloadUrl =
+                null;
         }
     }
 
     function resetConverter() {
+
         selectedFile = null;
+        compressedBlob = null;
 
-        fileInfo.style.display = "none";
+        cleanupDownloadUrl();
 
-        qualityControl.style.display = "none";
+        fileInfo.style.display =
+            "none";
 
-        convertButton.style.display = "none";
-        convertButton.disabled = true;
+        qualityControl.style.display =
+            "none";
+
+        compressButton.style.display =
+            "none";
+
+        compressButton.disabled =
+            true;
+
+        result.style.display =
+            "none";
+
+        downloadButton.style.display =
+            "none";
 
         setStatus("");
+    }
+
+    function isSupportedImage(file) {
+
+        if (!file) {
+            return false;
+        }
+
+        return (
+            file.type === "image/jpeg" ||
+            file.type === "image/png" ||
+            file.type === "image/webp" ||
+            /\.(jpg|jpeg|png|webp)$/i.test(
+                file.name
+            )
+        );
     }
 
     function handleFile(file) {
@@ -1082,34 +1312,42 @@
             return;
         }
 
-        const isJpg =
-            file.type === "image/jpeg" ||
-            /\.(jpg|jpeg)$/i.test(file.name);
-
-        if (!isJpg) {
+        if (!isSupportedImage(file)) {
 
             resetConverter();
 
             setStatus(
-                "Please select a JPG or JPEG image.",
+                "Please select a JPG, PNG or WebP image.",
                 "error"
             );
 
-            gtag("event", "conversion_error", {
-                tool: "jpg_to_webp",
-                reason: "invalid_file_type"
-            });
+            gtag(
+                "event",
+                "compression_error",
+                {
+                    tool: "image_compressor",
+                    reason: "invalid_file_type"
+                }
+            );
 
             return;
         }
 
-        selectedFile = file;
+        selectedFile =
+            file;
+
+        compressedBlob =
+            null;
+
+        cleanupDownloadUrl();
 
         fileName.textContent =
             file.name;
 
         fileSize.textContent =
-            formatFileSize(file.size);
+            formatFileSize(
+                file.size
+            );
 
         fileInfo.style.display =
             "block";
@@ -1117,25 +1355,36 @@
         qualityControl.style.display =
             "block";
 
-        convertButton.style.display =
+        compressButton.style.display =
             "inline-flex";
 
-        convertButton.disabled =
+        compressButton.disabled =
             false;
 
+        result.style.display =
+            "none";
+
+        downloadButton.style.display =
+            "none";
+
         setStatus(
-            "Image ready to convert."
+            "Image ready to compress."
         );
 
-        gtag("event", "file_selected", {
-            tool: "jpg_to_webp",
-            file_type: "jpg"
-        });
+        gtag(
+            "event",
+            "file_selected",
+            {
+                tool: "image_compressor",
+                file_type: file.type || "unknown"
+            }
+        );
     }
 
     quality.addEventListener(
         "input",
         function () {
+
             qualityValue.textContent =
                 this.value + "%";
         }
@@ -1144,6 +1393,7 @@
     fileInput.addEventListener(
         "change",
         function () {
+
             handleFile(
                 this.files[0]
             );
@@ -1153,6 +1403,7 @@
     dropZone.addEventListener(
         "dragover",
         function (event) {
+
             event.preventDefault();
 
             dropZone.classList.add(
@@ -1164,6 +1415,7 @@
     dropZone.addEventListener(
         "dragleave",
         function () {
+
             dropZone.classList.remove(
                 "dragover"
             );
@@ -1203,35 +1455,40 @@
         }
     );
 
-    convertButton.addEventListener(
+    compressButton.addEventListener(
         "click",
         function () {
 
             if (!selectedFile) {
 
                 setStatus(
-                    "Please select a JPG image first.",
+                    "Please select an image first.",
                     "error"
                 );
 
                 return;
             }
 
-            convertButton.disabled =
+            compressButton.disabled =
                 true;
 
+            downloadButton.style.display =
+                "none";
+
             setStatus(
-                "Converting..."
+                "Compressing..."
             );
 
             gtag(
                 "event",
-                "conversion_started",
+                "compression_started",
                 {
-                    tool: "jpg_to_webp",
+                    tool: "image_compressor",
                     quality: Number(
                         quality.value
-                    )
+                    ),
+                    input_type:
+                        selectedFile.type
                 }
             );
 
@@ -1279,6 +1536,21 @@
                             );
                         }
 
+                        /*
+                         * JPEG does not support transparency.
+                         * Use a white background when the
+                         * input has an alpha channel.
+                         */
+                        context.fillStyle =
+                            "#ffffff";
+
+                        context.fillRect(
+                            0,
+                            0,
+                            canvas.width,
+                            canvas.height
+                        );
+
                         context.drawImage(
                             image,
                             0,
@@ -1287,7 +1559,46 @@
                             canvas.height
                         );
 
-                        const webpQuality =
+                        const inputType =
+                            selectedFile.type;
+
+                        let outputType =
+                            "image/jpeg";
+
+                        let extension =
+                            ".jpg";
+
+                        /*
+                         * PNG/WebP are exported as WebP.
+                         * JPG/JPEG are exported as JPEG.
+                         *
+                         * This keeps JPEG images as JPEG and
+                         * gives PNG/WebP a browser-friendly
+                         * lossy compression path.
+                         */
+                        if (
+                            inputType === "image/jpeg" ||
+                            /\.(jpg|jpeg)$/i.test(
+                                selectedFile.name
+                            )
+                        ) {
+
+                            outputType =
+                                "image/jpeg";
+
+                            extension =
+                                ".jpg";
+
+                        } else {
+
+                            outputType =
+                                "image/webp";
+
+                            extension =
+                                ".webp";
+                        }
+
+                        const compressionQuality =
                             Number(
                                 quality.value
                             ) / 100;
@@ -1295,132 +1606,167 @@
                         canvas.toBlob(
                             function (blob) {
 
+                                URL.revokeObjectURL(
+                                    sourceUrl
+                                );
+
                                 if (!blob) {
 
                                     setStatus(
-                                        "Could not create the WebP file.",
+                                        "Could not create the compressed image.",
                                         "error"
                                     );
 
                                     gtag(
                                         "event",
-                                        "conversion_error",
+                                        "compression_error",
                                         {
-                                            tool: "jpg_to_webp",
+                                            tool: "image_compressor",
                                             reason: "blob_creation_failed"
                                         }
                                     );
 
-                                    convertButton.disabled =
+                                    compressButton.disabled =
                                         false;
 
                                     return;
                                 }
 
-                                const downloadUrl =
+                                compressedBlob =
+                                    blob;
+
+                                cleanupDownloadUrl();
+
+                                compressedDownloadUrl =
                                     URL.createObjectURL(
                                         blob
                                     );
 
-                                const link =
-                                    document.createElement(
-                                        "a"
+                                const originalBytes =
+                                    selectedFile.size;
+
+                                const compressedBytes =
+                                    blob.size;
+
+                                const saved =
+                                    originalBytes > 0
+                                        ? Math.max(
+                                            0,
+                                            (
+                                                (
+                                                    originalBytes -
+                                                    compressedBytes
+                                                ) /
+                                                originalBytes
+                                            ) * 100
+                                        )
+                                        : 0;
+
+                                originalSize.textContent =
+                                    formatFileSize(
+                                        originalBytes
                                     );
 
-                                const outputName =
-                                    selectedFile.name
-                                        .replace(
-                                            /\.(jpg|jpeg)$/i,
-                                            ""
-                                        ) + ".webp";
+                                compressedSize.textContent =
+                                    formatFileSize(
+                                        compressedBytes
+                                    );
 
-                                link.href =
-                                    downloadUrl;
+                                savedPercent.textContent =
+                                    saved.toFixed(1) + "%";
 
-                                link.download =
-                                    outputName;
+                                result.style.display =
+                                    "block";
 
-                                link.style.display =
-                                    "none";
+                                downloadButton.style.display =
+                                    "inline-flex";
 
-                                document.body.appendChild(
-                                    link
-                                );
+                                if (
+                                    compressedBytes <
+                                    originalBytes
+                                ) {
 
-                                link.click();
+                                    setStatus(
+                                        "Compression complete.",
+                                        "success"
+                                    );
 
-                                document.body.removeChild(
-                                    link
-                                );
+                                } else {
 
-                                setStatus(
-                                    "Conversion complete. WebP download started.",
-                                    "success"
-                                );
-
-                                gtag(
-                                    "event",
-                                    "conversion_completed",
-                                    {
-                                        tool: "jpg_to_webp",
-                                        output_type: "webp",
-                                        quality: Number(
-                                            quality.value
-                                        )
-                                    }
-                                );
+                                    setStatus(
+                                        "The compressed file is not smaller than the original. Try a lower quality setting.",
+                                        ""
+                                    );
+                                }
 
                                 gtag(
                                     "event",
-                                    "download",
+                                    "compression_completed",
                                     {
-                                        tool: "jpg_to_webp",
-                                        file_type: "webp"
+                                        tool: "image_compressor",
+                                        input_type:
+                                            inputType,
+                                        output_type:
+                                            outputType,
+                                        quality:
+                                            Number(
+                                                quality.value
+                                            ),
+                                        original_bytes:
+                                            originalBytes,
+                                        compressed_bytes:
+                                            compressedBytes,
+                                        saved_percent:
+                                            Number(
+                                                saved.toFixed(
+                                                    1
+                                                )
+                                            )
                                     }
                                 );
 
-                                setTimeout(
-                                    function () {
-                                        URL.revokeObjectURL(
-                                            downloadUrl
-                                        );
-                                    },
-                                    5000
-                                );
-
-                                convertButton.disabled =
+                                compressButton.disabled =
                                     false;
 
+                                /*
+                                 * Keep the extension variable
+                                 * available to the download handler.
+                                 */
+                                downloadButton.dataset.extension =
+                                    extension;
+
+                                downloadButton.dataset.outputType =
+                                    outputType;
                             },
-                            "image/webp",
-                            webpQuality
+                            outputType,
+                            compressionQuality
                         );
 
                     } catch (error) {
 
+                        URL.revokeObjectURL(
+                            sourceUrl
+                        );
+
                         console.error(error);
 
                         setStatus(
-                            "Conversion failed. Please try another JPG image.",
+                            "Compression failed. Please try another image.",
                             "error"
                         );
 
                         gtag(
                             "event",
-                            "conversion_error",
+                            "compression_error",
                             {
-                                tool: "jpg_to_webp",
-                                reason: "conversion_failed"
+                                tool: "image_compressor",
+                                reason: "compression_failed"
                             }
                         );
 
-                        convertButton.disabled =
+                        compressButton.disabled =
                             false;
                     }
-
-                    URL.revokeObjectURL(
-                        sourceUrl
-                    );
                 };
 
             image.onerror =
@@ -1431,25 +1777,92 @@
                     );
 
                     setStatus(
-                        "Unable to read the JPG image.",
+                        "Unable to read the image.",
                         "error"
                     );
 
                     gtag(
                         "event",
-                        "conversion_error",
+                        "compression_error",
                         {
-                            tool: "jpg_to_webp",
+                            tool: "image_compressor",
                             reason: "image_load_failed"
                         }
                     );
 
-                    convertButton.disabled =
+                    compressButton.disabled =
                         false;
                 };
 
             image.src =
                 sourceUrl;
+        }
+    );
+
+    downloadButton.addEventListener(
+        "click",
+        function () {
+
+            if (
+                !compressedBlob ||
+                !selectedFile ||
+                !compressedDownloadUrl
+            ) {
+                return;
+            }
+
+            const extension =
+                this.dataset.extension ||
+                ".jpg";
+
+            const outputName =
+                selectedFile.name
+                    .replace(
+                        /\.(jpg|jpeg|png|webp)$/i,
+                        ""
+                    ) + extension;
+
+            const link =
+                document.createElement(
+                    "a"
+                );
+
+            link.href =
+                compressedDownloadUrl;
+
+            link.download =
+                outputName;
+
+            link.style.display =
+                "none";
+
+            document.body.appendChild(
+                link
+            );
+
+            link.click();
+
+            document.body.removeChild(
+                link
+            );
+
+            gtag(
+                "event",
+                "download",
+                {
+                    tool: "image_compressor",
+                    file_type:
+                        this.dataset.outputType ||
+                        "image"
+                }
+            );
+        }
+    );
+
+    window.addEventListener(
+        "beforeunload",
+        function () {
+            cleanupDownloadUrl();
         }
     );
 </script>

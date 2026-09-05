@@ -9,11 +9,11 @@
         content="width=device-width, initial-scale=1.0"
     >
 
-    <title>JPG to WebP Converter — Free Online | Kyvorix</title>
+    <title>WebP to PNG Converter — Free Online | Kyvorix</title>
 
     <meta
         name="description"
-        content="Convert JPG and JPEG images to WebP online for free. Process your images directly in your browser with Kyvorix. No software or account required."
+        content="Convert WebP images to PNG online for free. Process WebP files directly in your browser with Kyvorix. No upload or account required."
     >
 
     <meta
@@ -28,18 +28,17 @@
 
     <link
         rel="canonical"
-        href="https://YOUR-DOMAIN.com/tools/jpg-to-webp.html"
+        href="https://YOUR-DOMAIN.com/tools/webp-to-png.html"
     >
 
-    <!-- Open Graph -->
     <meta
         property="og:title"
-        content="JPG to WebP Converter — Free Online | Kyvorix"
+        content="WebP to PNG Converter — Free Online | Kyvorix"
     >
 
     <meta
         property="og:description"
-        content="Convert JPG and JPEG images to WebP online for free. Process your images directly in your browser."
+        content="Convert WebP images to PNG online for free. Process your files directly in your browser."
     >
 
     <meta
@@ -49,7 +48,7 @@
 
     <meta
         property="og:url"
-        content="https://YOUR-DOMAIN.com/tools/jpg-to-webp.html"
+        content="https://YOUR-DOMAIN.com/tools/webp-to-png.html"
     >
 
     <!-- Google Analytics -->
@@ -74,11 +73,11 @@
     {
         "@context": "https://schema.org",
         "@type": "WebApplication",
-        "name": "JPG to WebP Converter",
-        "url": "https://YOUR-DOMAIN.com/tools/jpg-to-webp.html",
+        "name": "WebP to PNG Converter",
+        "url": "https://YOUR-DOMAIN.com/tools/webp-to-png.html",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web",
-        "description": "Free online JPG to WebP converter that processes images directly in the browser.",
+        "description": "Free online WebP to PNG converter that processes images directly in the browser.",
         "offers": {
             "@type": "Offer",
             "price": "0",
@@ -95,34 +94,34 @@
         "mainEntity": [
             {
                 "@type": "Question",
-                "name": "Can I convert JPG to WebP for free?",
+                "name": "Can I convert WebP to PNG for free?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes. Kyvorix provides a free JPG to WebP converter that works directly in your browser."
+                    "text": "Yes. Kyvorix provides a free WebP to PNG converter that works directly in your browser."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Are my JPG files uploaded to a server?",
+                "name": "Are my WebP files uploaded to a server?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "No. The conversion is performed directly in your browser, so your JPG image does not need to be uploaded to a Kyvorix server."
+                    "text": "No. The conversion is performed directly in your browser, so your WebP image does not need to be uploaded to a Kyvorix server."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Can I convert JPEG files to WebP?",
+                "name": "Does WebP to PNG preserve transparency?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes. The converter accepts both JPG and JPEG image files."
+                    "text": "Yes. PNG supports transparency, so transparent areas in a WebP image can be preserved when the browser decodes them with transparency."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Can I choose the WebP quality?",
+                "name": "Can I convert animated WebP files?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes. You can adjust the WebP quality before converting. Higher quality generally produces a larger file."
+                    "text": "This converter processes a WebP image as a still image. Animated WebP files are not converted as an animation sequence."
                 }
             }
         ]
@@ -166,7 +165,6 @@
 
         header a {
             text-decoration: none;
-            color: #111;
             font-weight: bold;
             letter-spacing: 2px;
         }
@@ -207,7 +205,7 @@
             border: 1px solid #ddd;
             border-radius: 16px;
             padding: 30px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.03);
         }
 
         .drop-zone {
@@ -257,7 +255,7 @@
             padding: 0;
             margin: -1px;
             overflow: hidden;
-            clip: rect(0, 0, 0, 0);
+            clip: rect(0,0,0,0);
             white-space: nowrap;
             border: 0;
         }
@@ -316,43 +314,6 @@
             font-size: 14px;
         }
 
-        .quality-control {
-            display: none;
-            margin-top: 20px;
-            padding: 18px;
-            border: 1px solid #ddd;
-            border-radius: 12px;
-            background: #fafafa;
-        }
-
-        .quality-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 15px;
-            margin-bottom: 12px;
-        }
-
-        .quality-header label {
-            font-weight: bold;
-            font-size: 14px;
-        }
-
-        #qualityValue {
-            font-weight: bold;
-        }
-
-        #quality {
-            width: 100%;
-            cursor: pointer;
-        }
-
-        .quality-help {
-            margin: 8px 0 0;
-            color: #777;
-            font-size: 13px;
-        }
-
         #convertButton {
             display: none;
             width: 100%;
@@ -361,9 +322,9 @@
 
         .status {
             margin-top: 16px;
+            min-height: 24px;
             font-size: 14px;
             color: #555;
-            min-height: 24px;
         }
 
         .status.success {
@@ -388,7 +349,6 @@
         .privacy-icon {
             flex: 0 0 auto;
             font-weight: bold;
-            color: #111;
         }
 
         .content-section {
@@ -416,7 +376,6 @@
             display: grid;
             grid-template-columns: 42px 1fr;
             gap: 14px;
-            align-items: start;
             padding: 18px;
             background: #fff;
             border: 1px solid #ddd;
@@ -460,7 +419,6 @@
         }
 
         .comparison th {
-            font-size: 14px;
             background: #f2f2f2;
         }
 
@@ -488,8 +446,8 @@
         }
 
         details p {
-            padding: 0 0 18px;
             margin: 0;
+            padding-bottom: 18px;
         }
 
         .related-tools {
@@ -529,7 +487,6 @@
         .back {
             display: inline-block;
             margin-top: 45px;
-            color: #111;
             text-decoration: none;
         }
 
@@ -561,6 +518,7 @@
         }
 
         @media (max-width: 700px) {
+
             header {
                 padding: 20px;
             }
@@ -601,12 +559,14 @@
 
 <header>
     <div class="header-inner">
+
         <a
             href="../index.html"
             aria-label="Kyvorix Tools home"
         >
             KYVORIX
         </a>
+
     </div>
 </header>
 
@@ -619,11 +579,11 @@
         </div>
 
         <h1>
-            JPG to WebP Converter
+            WebP to PNG Converter
         </h1>
 
         <p class="description">
-            Convert JPG and JPEG images to WebP online for free.
+            Convert WebP images to PNG online for free.
             Your image is processed directly in your browser,
             so you can convert it without uploading the file
             to a server.
@@ -640,7 +600,7 @@
             id="converter-heading"
             style="position:absolute;left:-9999px;"
         >
-            JPG to WebP converter tool
+            WebP to PNG converter tool
         </h2>
 
         <label
@@ -649,27 +609,29 @@
             for="fileInput"
             tabindex="0"
         >
+
             <strong>
-                Drop your JPG here
+                Drop your WebP here
             </strong>
 
             <span>
-                or click to choose a JPG or JPEG image
+                or click to choose a WebP image
             </span>
+
         </label>
 
         <input
             id="fileInput"
             type="file"
-            accept="image/jpeg,.jpg,.jpeg"
-            aria-label="Choose a JPG or JPEG image"
+            accept="image/webp,.webp"
+            aria-label="Choose a WebP image"
         >
 
         <label
             class="button choose-button"
             for="fileInput"
         >
-            Choose JPG file
+            Choose WebP file
         </label>
 
         <div
@@ -677,6 +639,7 @@
             id="fileInfo"
             aria-live="polite"
         >
+
             <div
                 class="file-name"
                 id="fileName"
@@ -686,35 +649,7 @@
                 class="file-size"
                 id="fileSize"
             ></div>
-        </div>
 
-        <div
-            class="quality-control"
-            id="qualityControl"
-        >
-            <div class="quality-header">
-                <label for="quality">
-                    WebP quality
-                </label>
-
-                <span id="qualityValue">
-                    90%
-                </span>
-            </div>
-
-            <input
-                id="quality"
-                type="range"
-                min="50"
-                max="100"
-                value="90"
-                step="1"
-                aria-label="WebP quality"
-            >
-
-            <p class="quality-help">
-                Higher quality generally produces a larger file.
-            </p>
         </div>
 
         <button
@@ -723,7 +658,7 @@
             type="button"
             disabled
         >
-            Convert to WebP
+            Convert to PNG
         </button>
 
         <div
@@ -734,6 +669,7 @@
         ></div>
 
         <div class="privacy-note">
+
             <div
                 class="privacy-icon"
                 aria-hidden="true"
@@ -745,8 +681,9 @@
                 <strong>Your file stays on your device.</strong>
                 <br>
                 The conversion runs directly in your browser.
-                Your JPG does not need to be uploaded to Kyvorix.
+                Your WebP does not need to be uploaded to Kyvorix.
             </div>
+
         </div>
 
     </section>
@@ -754,54 +691,77 @@
     <section class="content-section">
 
         <h2>
-            How to convert JPG to WebP
+            How to convert WebP to PNG
         </h2>
 
         <p>
-            Convert a JPG or JPEG image to WebP in just a few steps.
+            Convert a WebP image to PNG in just a few steps.
             No software installation or account is required.
         </p>
 
         <div class="steps">
 
             <div class="step">
-                <div class="step-number">1</div>
+
+                <div class="step-number">
+                    1
+                </div>
 
                 <div>
-                    <h3>Choose your JPG image</h3>
+
+                    <h3>
+                        Choose your WebP image
+                    </h3>
 
                     <p>
-                        Select a JPG or JPEG file from your device,
+                        Select a WebP file from your device,
                         or drag it into the converter.
                     </p>
+
                 </div>
+
             </div>
 
             <div class="step">
-                <div class="step-number">2</div>
+
+                <div class="step-number">
+                    2
+                </div>
 
                 <div>
-                    <h3>Choose WebP quality</h3>
+
+                    <h3>
+                        Convert to PNG
+                    </h3>
 
                     <p>
-                        Adjust the quality setting according to
-                        your needs. Higher quality generally creates
-                        a larger file.
+                        Click Convert to PNG and the browser
+                        will process the image locally.
                     </p>
+
                 </div>
+
             </div>
 
             <div class="step">
-                <div class="step-number">3</div>
+
+                <div class="step-number">
+                    3
+                </div>
 
                 <div>
-                    <h3>Convert and download</h3>
+
+                    <h3>
+                        Download your PNG
+                    </h3>
 
                     <p>
-                        Click Convert to WebP and your converted
-                        image will be downloaded to your device.
+                        Download the converted PNG directly
+                        to your device.
                     </p>
+
                 </div>
+
             </div>
 
         </div>
@@ -811,19 +771,26 @@
     <section class="content-section">
 
         <h2>
-            Why convert JPG to WebP?
+            Why convert WebP to PNG?
         </h2>
 
         <p>
-            WebP is an image format designed for the web and can
-            provide smaller files than JPEG in many situations
-            while maintaining useful visual quality.
+            WebP is designed for efficient web delivery, while
+            PNG is widely used for graphics, screenshots,
+            editing workflows and images that require
+            transparency.
         </p>
 
         <p>
-            Converting JPG images to WebP can be useful when
-            optimizing images for websites and other web-based
-            applications where file size matters.
+            Converting WebP to PNG can therefore be useful when
+            another application or workflow specifically requires
+            a PNG file.
+        </p>
+
+        <p>
+            PNG uses lossless compression, but converting a lossy
+            WebP image to PNG cannot restore image detail that was
+            already lost in the original WebP.
         </p>
 
     </section>
@@ -831,7 +798,7 @@
     <section class="content-section">
 
         <h2>
-            JPG vs WebP
+            WebP vs PNG
         </h2>
 
         <table class="comparison">
@@ -839,8 +806,8 @@
             <thead>
                 <tr>
                     <th>Feature</th>
-                    <th>JPG</th>
                     <th>WebP</th>
+                    <th>PNG</th>
                 </tr>
             </thead>
 
@@ -848,26 +815,26 @@
 
                 <tr>
                     <td>Compression</td>
-                    <td>Lossy</td>
                     <td>Lossy or lossless</td>
+                    <td>Lossless</td>
                 </tr>
 
                 <tr>
                     <td>Transparency</td>
-                    <td>Not supported</td>
+                    <td>Supported</td>
                     <td>Supported</td>
                 </tr>
 
                 <tr>
-                    <td>Web use</td>
-                    <td>Widely supported</td>
-                    <td>Designed for modern web use</td>
+                    <td>Typical use</td>
+                    <td>Modern web images</td>
+                    <td>Graphics and editing</td>
                 </tr>
 
                 <tr>
                     <td>Typical file size</td>
+                    <td>Often smaller</td>
                     <td>Often larger</td>
-                    <td>Can be smaller</td>
                 </tr>
 
             </tbody>
@@ -879,53 +846,64 @@
     <section class="content-section">
 
         <h2>
-            JPG to WebP Converter FAQ
+            WebP to PNG Converter FAQ
         </h2>
 
         <div class="faq">
 
             <details>
+
                 <summary>
-                    Can I convert JPG to WebP for free?
+                    Can I convert WebP to PNG for free?
                 </summary>
 
                 <p>
-                    Yes. Kyvorix provides a free JPG to WebP
+                    Yes. Kyvorix provides a free WebP to PNG
                     converter that works directly in your browser.
                 </p>
+
             </details>
 
             <details>
+
                 <summary>
-                    Are my JPG files uploaded to a server?
+                    Are my WebP files uploaded?
                 </summary>
 
                 <p>
-                    No. The conversion is performed directly in
-                    your browser, so the JPG image does not need
-                    to be uploaded to a Kyvorix server.
+                    No. The conversion is performed directly
+                    in your browser, so the WebP image does not
+                    need to be uploaded to a Kyvorix server.
                 </p>
+
             </details>
 
             <details>
+
                 <summary>
-                    Can I convert JPEG files to WebP?
+                    Does WebP to PNG preserve transparency?
                 </summary>
 
                 <p>
-                    Yes. Both JPG and JPEG files are supported.
+                    Yes. PNG supports transparency, so transparent
+                    areas in a WebP image can be preserved when the
+                    image is decoded by the browser.
                 </p>
+
             </details>
 
             <details>
+
                 <summary>
-                    Can I choose the WebP quality?
+                    Can I convert an animated WebP?
                 </summary>
 
                 <p>
-                    Yes. Use the quality slider before converting.
-                    Higher quality generally results in a larger file.
+                    This converter processes a WebP as a still image.
+                    Animated WebP files are not converted as an
+                    animation sequence.
                 </p>
+
             </details>
 
         </div>
@@ -942,35 +920,62 @@
 
             <a
                 class="related-tool"
-                href="jpg-to-png.html"
+                href="webp-to-jpg.html"
             >
-                <strong>JPG to PNG</strong>
+
+                <strong>
+                    WebP to JPG
+                </strong>
 
                 <span>
-                    Convert JPG and JPEG images to PNG format.
+                    Convert WebP images to JPG format.
                 </span>
+
+            </a>
+
+            <a
+                class="related-tool"
+                href="jpg-to-webp.html"
+            >
+
+                <strong>
+                    JPG to WebP
+                </strong>
+
+                <span>
+                    Convert JPG and JPEG images to WebP.
+                </span>
+
+            </a>
+
+            <a
+                class="related-tool"
+                href="jpg-to-png.html"
+            >
+
+                <strong>
+                    JPG to PNG
+                </strong>
+
+                <span>
+                    Convert JPG and JPEG images to PNG.
+                </span>
+
             </a>
 
             <a
                 class="related-tool"
                 href="png-to-jpg.html"
             >
-                <strong>PNG to JPG</strong>
+
+                <strong>
+                    PNG to JPG
+                </strong>
 
                 <span>
-                    Convert PNG images to JPG format.
+                    Convert PNG images to JPG.
                 </span>
-            </a>
 
-            <a
-                class="related-tool"
-                href="../index.html#tools"
-            >
-                <strong>All Kyvorix tools</strong>
-
-                <span>
-                    Explore more free online image tools.
-                </span>
             </a>
 
         </div>
@@ -1021,15 +1026,6 @@
     const fileSize =
         document.getElementById("fileSize");
 
-    const qualityControl =
-        document.getElementById("qualityControl");
-
-    const quality =
-        document.getElementById("quality");
-
-    const qualityValue =
-        document.getElementById("qualityValue");
-
     const convertButton =
         document.getElementById("convertButton");
 
@@ -1039,6 +1035,7 @@
     let selectedFile = null;
 
     function formatFileSize(bytes) {
+
         if (bytes < 1024) {
             return bytes + " B";
         }
@@ -1054,24 +1051,36 @@
         ).toFixed(1) + " MB";
     }
 
-    function setStatus(message, type = "") {
-        status.textContent = message;
-        status.className = "status";
+    function setStatus(
+        message,
+        type = ""
+    ) {
+
+        status.textContent =
+            message;
+
+        status.className =
+            "status";
 
         if (type) {
-            status.classList.add(type);
+            status.classList.add(
+                type
+            );
         }
     }
 
     function resetConverter() {
+
         selectedFile = null;
 
-        fileInfo.style.display = "none";
+        fileInfo.style.display =
+            "none";
 
-        qualityControl.style.display = "none";
+        convertButton.style.display =
+            "none";
 
-        convertButton.style.display = "none";
-        convertButton.disabled = true;
+        convertButton.disabled =
+            true;
 
         setStatus("");
     }
@@ -1082,39 +1091,43 @@
             return;
         }
 
-        const isJpg =
-            file.type === "image/jpeg" ||
-            /\.(jpg|jpeg)$/i.test(file.name);
+        const isWebP =
+            file.type === "image/webp" ||
+            /\.webp$/i.test(file.name);
 
-        if (!isJpg) {
+        if (!isWebP) {
 
             resetConverter();
 
             setStatus(
-                "Please select a JPG or JPEG image.",
+                "Please select a WebP image.",
                 "error"
             );
 
-            gtag("event", "conversion_error", {
-                tool: "jpg_to_webp",
-                reason: "invalid_file_type"
-            });
+            gtag(
+                "event",
+                "conversion_error",
+                {
+                    tool: "webp_to_png",
+                    reason: "invalid_file_type"
+                }
+            );
 
             return;
         }
 
-        selectedFile = file;
+        selectedFile =
+            file;
 
         fileName.textContent =
             file.name;
 
         fileSize.textContent =
-            formatFileSize(file.size);
+            formatFileSize(
+                file.size
+            );
 
         fileInfo.style.display =
-            "block";
-
-        qualityControl.style.display =
             "block";
 
         convertButton.style.display =
@@ -1127,23 +1140,20 @@
             "Image ready to convert."
         );
 
-        gtag("event", "file_selected", {
-            tool: "jpg_to_webp",
-            file_type: "jpg"
-        });
+        gtag(
+            "event",
+            "file_selected",
+            {
+                tool: "webp_to_png",
+                file_type: "webp"
+            }
+        );
     }
-
-    quality.addEventListener(
-        "input",
-        function () {
-            qualityValue.textContent =
-                this.value + "%";
-        }
-    );
 
     fileInput.addEventListener(
         "change",
         function () {
+
             handleFile(
                 this.files[0]
             );
@@ -1153,6 +1163,7 @@
     dropZone.addEventListener(
         "dragover",
         function (event) {
+
             event.preventDefault();
 
             dropZone.classList.add(
@@ -1164,6 +1175,7 @@
     dropZone.addEventListener(
         "dragleave",
         function () {
+
             dropZone.classList.remove(
                 "dragover"
             );
@@ -1180,10 +1192,9 @@
                 "dragover"
             );
 
-            const file =
-                event.dataTransfer.files[0];
-
-            handleFile(file);
+            handleFile(
+                event.dataTransfer.files[0]
+            );
         }
     );
 
@@ -1210,7 +1221,7 @@
             if (!selectedFile) {
 
                 setStatus(
-                    "Please select a JPG image first.",
+                    "Please select a WebP image first.",
                     "error"
                 );
 
@@ -1228,10 +1239,7 @@
                 "event",
                 "conversion_started",
                 {
-                    tool: "jpg_to_webp",
-                    quality: Number(
-                        quality.value
-                    )
+                    tool: "webp_to_png"
                 }
             );
 
@@ -1274,10 +1282,22 @@
                             );
 
                         if (!context) {
+
                             throw new Error(
                                 "Canvas is not supported."
                             );
                         }
+
+                        /*
+                         * No background is painted here.
+                         * PNG supports transparency.
+                         */
+                        context.clearRect(
+                            0,
+                            0,
+                            canvas.width,
+                            canvas.height
+                        );
 
                         context.drawImage(
                             image,
@@ -1287,18 +1307,17 @@
                             canvas.height
                         );
 
-                        const webpQuality =
-                            Number(
-                                quality.value
-                            ) / 100;
-
                         canvas.toBlob(
                             function (blob) {
+
+                                URL.revokeObjectURL(
+                                    sourceUrl
+                                );
 
                                 if (!blob) {
 
                                     setStatus(
-                                        "Could not create the WebP file.",
+                                        "Could not create the PNG file.",
                                         "error"
                                     );
 
@@ -1306,8 +1325,10 @@
                                         "event",
                                         "conversion_error",
                                         {
-                                            tool: "jpg_to_webp",
-                                            reason: "blob_creation_failed"
+                                            tool:
+                                                "webp_to_png",
+                                            reason:
+                                                "blob_creation_failed"
                                         }
                                     );
 
@@ -1330,9 +1351,10 @@
                                 const outputName =
                                     selectedFile.name
                                         .replace(
-                                            /\.(jpg|jpeg)$/i,
+                                            /\.webp$/i,
                                             ""
-                                        ) + ".webp";
+                                        ) +
+                                    ".png";
 
                                 link.href =
                                     downloadUrl;
@@ -1354,7 +1376,7 @@
                                 );
 
                                 setStatus(
-                                    "Conversion complete. WebP download started.",
+                                    "Conversion complete. PNG download started.",
                                     "success"
                                 );
 
@@ -1362,11 +1384,10 @@
                                     "event",
                                     "conversion_completed",
                                     {
-                                        tool: "jpg_to_webp",
-                                        output_type: "webp",
-                                        quality: Number(
-                                            quality.value
-                                        )
+                                        tool:
+                                            "webp_to_png",
+                                        output_type:
+                                            "png"
                                     }
                                 );
 
@@ -1374,34 +1395,40 @@
                                     "event",
                                     "download",
                                     {
-                                        tool: "jpg_to_webp",
-                                        file_type: "webp"
+                                        tool:
+                                            "webp_to_png",
+                                        file_type:
+                                            "png"
                                     }
                                 );
 
                                 setTimeout(
                                     function () {
+
                                         URL.revokeObjectURL(
                                             downloadUrl
                                         );
+
                                     },
                                     5000
                                 );
 
                                 convertButton.disabled =
                                     false;
-
                             },
-                            "image/webp",
-                            webpQuality
+                            "image/png"
                         );
 
                     } catch (error) {
 
                         console.error(error);
 
+                        URL.revokeObjectURL(
+                            sourceUrl
+                        );
+
                         setStatus(
-                            "Conversion failed. Please try another JPG image.",
+                            "Conversion failed. Please try another WebP image.",
                             "error"
                         );
 
@@ -1409,18 +1436,16 @@
                             "event",
                             "conversion_error",
                             {
-                                tool: "jpg_to_webp",
-                                reason: "conversion_failed"
+                                tool:
+                                    "webp_to_png",
+                                reason:
+                                    "conversion_failed"
                             }
                         );
 
                         convertButton.disabled =
                             false;
                     }
-
-                    URL.revokeObjectURL(
-                        sourceUrl
-                    );
                 };
 
             image.onerror =
@@ -1431,7 +1456,7 @@
                     );
 
                     setStatus(
-                        "Unable to read the JPG image.",
+                        "Unable to read the WebP image.",
                         "error"
                     );
 
@@ -1439,8 +1464,10 @@
                         "event",
                         "conversion_error",
                         {
-                            tool: "jpg_to_webp",
-                            reason: "image_load_failed"
+                            tool:
+                                "webp_to_png",
+                            reason:
+                                "image_load_failed"
                         }
                     );
 
