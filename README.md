@@ -14,7 +14,7 @@ npm run deploy
 The repository includes a GitHub Actions workflow at `.github/workflows/deploy.yml`.
 After creating a GitHub repository, add these repository secrets:
 
-- `CLOUDFLARE_API_TOKEN` — Cloudflare API token with Workers Scripts edit permission.
+- `CLOUDFLARE_API_TOKEN` — Cloudflare API token with `Workers Scripts: Edit` and `Workers Routes: Edit` permissions.
 - `CLOUDFLARE_ACCOUNT_ID` — Cloudflare account ID that owns the `kyvorix` Worker.
 
 In GitHub, open **Settings > Secrets and variables > Actions > New repository secret**.
