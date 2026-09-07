@@ -51,6 +51,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://kyvorixapp.com/tools/batch-image-resizer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://kyvorixapp.com/tools/image-resizer.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
