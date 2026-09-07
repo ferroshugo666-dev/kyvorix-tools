@@ -1,0 +1,1678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>WebP to PNG Converter — Free Online | Kyvorix</title>
+
+    <meta
+        name="description"
+        content="Convert WebP images to PNG online for free. Process WebP files directly in your browser with Kyvorix. No upload or account required."
+    >
+
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+    <meta
+        name="theme-color"
+        content="#111111"
+    >
+
+    <link rel="canonical" href="https://kyvorixapp.com/tools/webp-to-png.html">
+
+    <meta
+        property="og:title"
+        content="WebP to PNG Converter — Free Online | Kyvorix"
+    >
+
+    <meta
+        property="og:description"
+        content="Convert WebP images to PNG online for free. Process your files directly in your browser."
+    >
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:url"
+        content="https://kyvorixapp.com/tools/webp-to-png.html"
+    >
+
+    <!-- Google Analytics -->
+    <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"
+    ></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag("js", new Date());
+        gtag("config", "G-KWWHTEZJR3");
+    </script>
+
+    <!-- WebApplication structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "WebP to PNG Converter",
+        "url": "https://kyvorixapp.com/tools/webp-to-png.html",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web",
+        "description": "Free online WebP to PNG converter that processes images directly in the browser.",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+
+    <!-- FAQ structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Can I convert WebP to PNG for free?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Kyvorix provides a free WebP to PNG converter that works directly in your browser."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are my WebP files uploaded to a server?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. The conversion is performed directly in your browser, so your WebP image does not need to be uploaded to a Kyvorix server."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does WebP to PNG preserve transparency?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. PNG supports transparency, so transparent areas in a WebP image can be preserved."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I convert animated WebP files?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "This converter processes a WebP image as a still image. Animated WebP files are not converted as an animation sequence."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- Kyvorix shared design -->
+    <link
+        rel="stylesheet"
+        href="../style.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="../kyvorix-enhancements.css"
+    >
+
+    <style>
+        /* =========================================
+           WebP → PNG tool page
+           ========================================= */
+
+        .tool-page {
+            max-width: 1120px;
+            margin: 0 auto;
+            padding: 72px 24px 100px;
+        }
+
+        .tool-hero {
+            max-width: 780px;
+            margin-bottom: 42px;
+        }
+
+        .tool-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 18px;
+            padding: 7px 11px;
+            border: 1px solid #e5e5e8;
+            border-radius: 999px;
+            background: #fff;
+            color: #666;
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+        }
+
+        .tool-label::before {
+            content: "";
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #111;
+        }
+
+        .tool-hero h1 {
+            margin: 0;
+            max-width: 800px;
+            font-size: clamp(42px, 6vw, 72px);
+            line-height: .98;
+            letter-spacing: -.055em;
+        }
+
+        .tool-hero p {
+            max-width: 680px;
+            margin: 24px 0 0;
+            color: #68686f;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        .converter-card {
+            position: relative;
+            overflow: hidden;
+            padding: 28px;
+            border: 1px solid #e2e2e6;
+            border-radius: 24px;
+            background: #fff;
+            box-shadow:
+                0 20px 70px rgba(0, 0, 0, .07),
+                0 2px 8px rgba(0, 0, 0, .03);
+        }
+
+        .converter-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: #111;
+        }
+
+        .drop-zone {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 300px;
+            padding: 42px 24px;
+            border: 2px dashed #d7d7dc;
+            border-radius: 18px;
+            background: #fafafa;
+            text-align: center;
+            cursor: pointer;
+            transition:
+                border-color .2s ease,
+                background .2s ease,
+                transform .2s ease;
+        }
+
+        .drop-zone:hover,
+        .drop-zone:focus-visible,
+        .drop-zone.dragover {
+            border-color: #111;
+            background: #f7f7f8;
+        }
+
+        .drop-zone.dragover {
+            transform: scale(1.005);
+        }
+
+        .drop-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 68px;
+            height: 68px;
+            margin-bottom: 20px;
+            border: 1px solid #dedee2;
+            border-radius: 18px;
+            background: #fff;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, .05);
+            font-size: 27px;
+        }
+
+        .drop-zone strong {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 20px;
+            letter-spacing: -.02em;
+        }
+
+        .drop-zone span {
+            color: #777;
+            font-size: 14px;
+        }
+
+        input[type="file"] {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        .file-card {
+            display: none;
+            align-items: center;
+            justify-content: space-between;
+            gap: 18px;
+            margin-top: 16px;
+            padding: 16px 18px;
+            border: 1px solid #e5e5e8;
+            border-radius: 15px;
+            background: #fafafa;
+        }
+
+        .file-card.show {
+            display: flex;
+        }
+
+        .file-card-main {
+            min-width: 0;
+        }
+
+        .file-name {
+            overflow: hidden;
+            font-weight: 750;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .file-size {
+            margin-top: 4px;
+            color: #777;
+            font-size: 13px;
+        }
+
+        .change-file {
+            flex: 0 0 auto;
+            padding: 9px 12px;
+            border: 1px solid #dddde1;
+            border-radius: 10px;
+            background: #fff;
+            color: #111;
+            font-size: 12px;
+            font-weight: 750;
+            cursor: pointer;
+        }
+
+        .change-file:hover {
+            border-color: #111;
+        }
+
+        .convert-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            min-height: 54px;
+            margin-top: 18px;
+            padding: 15px 20px;
+            border: 0;
+            border-radius: 13px;
+            background: #111;
+            color: #fff;
+            font-size: 15px;
+            font-weight: 800;
+            cursor: pointer;
+            transition:
+                transform .2s ease,
+                opacity .2s ease,
+                box-shadow .2s ease;
+        }
+
+        .convert-button:hover:not(:disabled) {
+            transform: translateY(-1px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, .15);
+        }
+
+        .convert-button:disabled {
+            opacity: .45;
+            cursor: not-allowed;
+        }
+
+        .status {
+            min-height: 22px;
+            margin-top: 14px;
+            color: #666;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        .status.success {
+            color: #176b37;
+        }
+
+        .status.error {
+            color: #a32121;
+        }
+
+        .privacy-note {
+            display: flex;
+            gap: 12px;
+            margin-top: 18px;
+            padding: 15px 16px;
+            border: 1px solid #e9e9ec;
+            border-radius: 13px;
+            background: #fafafa;
+            color: #68686f;
+            font-size: 13px;
+            line-height: 1.55;
+        }
+
+        .privacy-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 0 0 auto;
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            background: #111;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 800;
+        }
+
+        .result {
+            display: none;
+            margin-top: 18px;
+            padding: 20px;
+            border: 1px solid #dedee2;
+            border-radius: 17px;
+            background: #fafafa;
+        }
+
+        .result.show {
+            display: block;
+        }
+
+        .result-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        .result-title {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 800;
+        }
+
+        .result-badge {
+            padding: 6px 9px;
+            border-radius: 999px;
+            background: #111;
+            color: #fff;
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: .04em;
+            text-transform: uppercase;
+        }
+
+        .preview {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 240px;
+            padding: 18px;
+            border: 1px solid #e4e4e7;
+            border-radius: 14px;
+            background:
+                linear-gradient(45deg, #f0f0f0 25%, transparent 25%),
+                linear-gradient(-45deg, #f0f0f0 25%, transparent 25%),
+                linear-gradient(45deg, transparent 75%, #f0f0f0 75%),
+                linear-gradient(-45deg, transparent 75%, #f0f0f0 75%);
+            background-size: 22px 22px;
+            background-position:
+                0 0,
+                0 11px,
+                11px -11px,
+                -11px 0;
+        }
+
+        .preview img {
+            display: block;
+            max-width: 100%;
+            max-height: 420px;
+            border-radius: 8px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, .1);
+        }
+
+        .result-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-top: 14px;
+        }
+
+        .result-stat {
+            padding: 13px;
+            border: 1px solid #e5e5e8;
+            border-radius: 12px;
+            background: #fff;
+        }
+
+        .result-stat span {
+            display: block;
+            margin-bottom: 4px;
+            color: #777;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: .04em;
+        }
+
+        .result-stat strong {
+            display: block;
+            font-size: 14px;
+        }
+
+        .result-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 14px;
+        }
+
+        .download-button,
+        .reset-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 46px;
+            border-radius: 11px;
+            padding: 11px 16px;
+            font-size: 13px;
+            font-weight: 800;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .download-button {
+            flex: 1;
+            border: 0;
+            background: #111;
+            color: #fff;
+        }
+
+        .reset-button {
+            border: 1px solid #dcdce0;
+            background: #fff;
+            color: #111;
+        }
+
+        .download-button:hover {
+            opacity: .9;
+        }
+
+        .reset-button:hover {
+            border-color: #111;
+        }
+
+        .content-section {
+            max-width: 850px;
+            margin: 90px auto 0;
+        }
+
+        .content-section h2 {
+            margin: 0 0 16px;
+            font-size: clamp(28px, 4vw, 38px);
+            line-height: 1.1;
+            letter-spacing: -.035em;
+        }
+
+        .content-section > p {
+            margin: 0 0 15px;
+            color: #666;
+            line-height: 1.75;
+        }
+
+        .steps {
+            display: grid;
+            gap: 12px;
+            margin-top: 25px;
+        }
+
+        .step {
+            display: grid;
+            grid-template-columns: 44px 1fr;
+            gap: 15px;
+            padding: 19px;
+            border: 1px solid #e3e3e6;
+            border-radius: 15px;
+            background: #fff;
+        }
+
+        .step-number {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            background: #111;
+            color: #fff;
+            font-weight: 800;
+        }
+
+        .step h3 {
+            margin: 1px 0 5px;
+            font-size: 16px;
+        }
+
+        .step p {
+            margin: 0;
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .comparison-wrap {
+            overflow-x: auto;
+            margin-top: 25px;
+            border: 1px solid #e2e2e6;
+            border-radius: 15px;
+        }
+
+        .comparison {
+            width: 100%;
+            min-width: 580px;
+            border-collapse: collapse;
+            background: #fff;
+        }
+
+        .comparison th,
+        .comparison td {
+            padding: 15px 17px;
+            border-bottom: 1px solid #e8e8eb;
+            text-align: left;
+        }
+
+        .comparison th {
+            background: #f7f7f8;
+            font-size: 13px;
+        }
+
+        .comparison td {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .comparison tr:last-child td {
+            border-bottom: 0;
+        }
+
+        .faq {
+            display: grid;
+            gap: 10px;
+            margin-top: 25px;
+        }
+
+        .faq details {
+            border: 1px solid #e2e2e6;
+            border-radius: 14px;
+            background: #fff;
+        }
+
+        .faq summary {
+            padding: 18px 19px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 800;
+        }
+
+        .faq details p {
+            margin: 0;
+            padding: 0 19px 18px;
+            color: #666;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .related-tools {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-top: 25px;
+        }
+
+        .related-tool {
+            display: block;
+            padding: 19px;
+            border: 1px solid #e2e2e6;
+            border-radius: 15px;
+            background: #fff;
+            text-decoration: none;
+            transition:
+                transform .2s ease,
+                border-color .2s ease,
+                box-shadow .2s ease;
+        }
+
+        .related-tool:hover {
+            transform: translateY(-2px);
+            border-color: #111;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, .06);
+        }
+
+        .related-tool strong {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 15px;
+        }
+
+        .related-tool span {
+            color: #707077;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            margin-top: 55px;
+            color: #555;
+            font-size: 14px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            color: #111;
+        }
+
+        @media (max-width: 700px) {
+            .tool-page {
+                padding: 48px 16px 70px;
+            }
+
+            .tool-hero {
+                margin-bottom: 28px;
+            }
+
+            .tool-hero p {
+                font-size: 16px;
+            }
+
+            .converter-card {
+                padding: 15px;
+                border-radius: 19px;
+            }
+
+            .drop-zone {
+                min-height: 250px;
+                padding: 30px 18px;
+            }
+
+            .file-card {
+                align-items: flex-start;
+                flex-direction: column;
+            }
+
+            .change-file {
+                width: 100%;
+            }
+
+            .result-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .result-actions {
+                flex-direction: column;
+            }
+
+            .related-tools {
+                grid-template-columns: 1fr;
+            }
+
+            .content-section {
+                margin-top: 65px;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .drop-zone,
+            .convert-button,
+            .related-tool {
+                transition: none;
+            }
+        }
+    </style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6997398456614782" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a
+            class="logo"
+            href="../index.html"
+            aria-label="Kyvorix Tools home"
+        >
+            KYVORIX
+        </a>
+
+        <nav aria-label="Main navigation">
+            <a href="../index.html">Tools</a>
+            <a href="../index.html#about">About</a>
+        </nav>
+    </div>
+</header>
+
+<main class="tool-page">
+
+    <section class="tool-hero">
+        <div class="tool-label">
+            Image Converter
+        </div>
+
+        <h1>
+            WebP to PNG Converter
+        </h1>
+
+        <p>
+            Convert WebP images to PNG online for free.
+            Your image is processed directly in your browser,
+            so your files stay on your device.
+        </p>
+    </section>
+
+    <section
+        class="converter-card"
+        aria-labelledby="converter-heading"
+    >
+
+        <h2
+            id="converter-heading"
+            style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;"
+        >
+            WebP to PNG converter
+        </h2>
+
+        <label
+            class="drop-zone"
+            id="dropZone"
+            for="fileInput"
+            tabindex="0"
+        >
+            <div
+                class="drop-icon"
+                aria-hidden="true"
+            >
+                ↓
+            </div>
+
+            <strong>
+                Drop your WebP here
+            </strong>
+
+            <span>
+                or click to choose a WebP image
+            </span>
+        </label>
+
+        <input
+            id="fileInput"
+            type="file"
+            accept="image/webp,.webp"
+            aria-label="Choose a WebP image"
+        >
+
+        <div
+            class="file-card"
+            id="fileCard"
+        >
+            <div class="file-card-main">
+                <div
+                    class="file-name"
+                    id="fileName"
+                ></div>
+
+                <div
+                    class="file-size"
+                    id="fileSize"
+                ></div>
+            </div>
+
+            <button
+                class="change-file"
+                id="changeFile"
+                type="button"
+            >
+                Change file
+            </button>
+        </div>
+
+        <button
+            class="convert-button"
+            id="convertButton"
+            type="button"
+            disabled
+        >
+            Convert to PNG
+        </button>
+
+        <div
+            class="status"
+            id="status"
+            role="status"
+            aria-live="polite"
+        ></div>
+
+        <div
+            class="result"
+            id="result"
+        >
+            <div class="result-header">
+                <h3 class="result-title">
+                    Your PNG is ready
+                </h3>
+
+                <span class="result-badge">
+                    Complete
+                </span>
+            </div>
+
+            <div class="preview">
+                <img
+                    id="previewImage"
+                    alt="Converted PNG preview"
+                >
+            </div>
+
+            <div class="result-stats">
+                <div class="result-stat">
+                    <span>Original</span>
+                    <strong id="originalSize">—</strong>
+                </div>
+
+                <div class="result-stat">
+                    <span>PNG</span>
+                    <strong id="outputSize">—</strong>
+                </div>
+
+                <div class="result-stat">
+                    <span>Dimensions</span>
+                    <strong id="dimensions">—</strong>
+                </div>
+            </div>
+
+            <div class="result-actions">
+                <a
+                    class="download-button"
+                    id="downloadButton"
+                    href="#"
+                    download
+                >
+                    Download PNG
+                </a>
+
+                <button
+                    class="reset-button"
+                    id="resetButton"
+                    type="button"
+                >
+                    Convert another
+                </button>
+            </div>
+        </div>
+
+        <div class="privacy-note">
+            <div
+                class="privacy-icon"
+                aria-hidden="true"
+            >
+                ✓
+            </div>
+
+            <div>
+                <strong>Your file stays on your device.</strong>
+                <br>
+                Conversion happens locally in your browser.
+                Your WebP does not need to be uploaded to a Kyvorix server.
+            </div>
+        </div>
+
+    </section>
+
+    <section class="content-section">
+
+        <h2>
+            How to convert WebP to PNG
+        </h2>
+
+        <p>
+            Convert a WebP image to PNG in three simple steps.
+            No software installation or account is required.
+        </p>
+
+        <div class="steps">
+
+            <div class="step">
+                <div class="step-number">1</div>
+
+                <div>
+                    <h3>
+                        Choose your WebP image
+                    </h3>
+
+                    <p>
+                        Select a WebP file from your device,
+                        or drag it into the converter.
+                    </p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">2</div>
+
+                <div>
+                    <h3>
+                        Convert to PNG
+                    </h3>
+
+                    <p>
+                        Click Convert to PNG and your browser
+                        will process the image locally.
+                    </p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">3</div>
+
+                <div>
+                    <h3>
+                        Download your PNG
+                    </h3>
+
+                    <p>
+                        Preview the result and download the
+                        converted PNG directly to your device.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="content-section">
+
+        <h2>
+            Why convert WebP to PNG?
+        </h2>
+
+        <p>
+            WebP is designed for efficient web delivery,
+            while PNG is widely supported for graphics,
+            screenshots, editing workflows and images that
+            require transparency.
+        </p>
+
+        <p>
+            Converting WebP to PNG can be useful when another
+            application, editor or workflow specifically requires
+            a PNG file.
+        </p>
+
+        <p>
+            PNG uses lossless compression, but converting a lossy
+            WebP image to PNG cannot restore image detail that was
+            already lost in the original WebP.
+        </p>
+
+    </section>
+
+    <section class="content-section">
+
+        <h2>
+            WebP vs PNG
+        </h2>
+
+        <div class="comparison-wrap">
+            <table class="comparison">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>WebP</th>
+                        <th>PNG</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Compression</td>
+                        <td>Lossy or lossless</td>
+                        <td>Lossless</td>
+                    </tr>
+
+                    <tr>
+                        <td>Transparency</td>
+                        <td>Supported</td>
+                        <td>Supported</td>
+                    </tr>
+
+                    <tr>
+                        <td>Typical use</td>
+                        <td>Modern web images</td>
+                        <td>Graphics and editing</td>
+                    </tr>
+
+                    <tr>
+                        <td>Typical file size</td>
+                        <td>Often smaller</td>
+                        <td>Often larger</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+
+    <section class="content-section">
+
+        <h2>
+            WebP to PNG Converter FAQ
+        </h2>
+
+        <div class="faq">
+
+            <details>
+                <summary>
+                    Can I convert WebP to PNG for free?
+                </summary>
+
+                <p>
+                    Yes. Kyvorix provides a free WebP to PNG
+                    converter that works directly in your browser.
+                </p>
+            </details>
+
+            <details>
+                <summary>
+                    Are my WebP files uploaded?
+                </summary>
+
+                <p>
+                    No. The conversion is performed directly
+                    in your browser, so the WebP image does not
+                    need to be uploaded to a Kyvorix server.
+                </p>
+            </details>
+
+            <details>
+                <summary>
+                    Does WebP to PNG preserve transparency?
+                </summary>
+
+                <p>
+                    Yes. PNG supports transparency, so transparent
+                    areas in a WebP image can be preserved when the
+                    image is decoded by the browser.
+                </p>
+            </details>
+
+            <details>
+                <summary>
+                    Can I convert an animated WebP?
+                </summary>
+
+                <p>
+                    This converter processes a WebP as a still image.
+                    Animated WebP files are not converted as an
+                    animation sequence.
+                </p>
+            </details>
+
+        </div>
+
+    </section>
+
+    <section class="content-section">
+
+        <h2>
+            More image tools
+        </h2>
+
+        <div class="related-tools">
+
+            <a
+                class="related-tool"
+                href="webp-to-jpg.html"
+            >
+                <strong>
+                    WebP to JPG
+                </strong>
+
+                <span>
+                    Convert WebP images to JPG format.
+                </span>
+            </a>
+
+            <a
+                class="related-tool"
+                href="jpg-to-webp.html"
+            >
+                <strong>
+                    JPG to WebP
+                </strong>
+
+                <span>
+                    Convert JPG and JPEG images to WebP.
+                </span>
+            </a>
+
+            <a
+                class="related-tool"
+                href="jpg-to-png.html"
+            >
+                <strong>
+                    JPG to PNG
+                </strong>
+
+                <span>
+                    Convert JPG and JPEG images to PNG.
+                </span>
+            </a>
+
+            <a
+                class="related-tool"
+                href="png-to-jpg.html"
+            >
+                <strong>
+                    PNG to JPG
+                </strong>
+
+                <span>
+                    Convert PNG images to JPG.
+                </span>
+            </a>
+
+        </div>
+
+    </section>
+
+    <a
+        class="back-link"
+        href="../index.html"
+    >
+        ← Back to Kyvorix Tools
+    </a>
+
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-top">
+            <div>
+                <a
+                    class="footer-logo"
+                    href="../index.html"
+                >
+                    KYVORIX
+                </a>
+
+                <p>
+                    Simple tools for everyday digital work.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+"use strict";
+
+(() => {
+    const fileInput = document.getElementById("fileInput");
+    const dropZone = document.getElementById("dropZone");
+    const fileCard = document.getElementById("fileCard");
+    const fileName = document.getElementById("fileName");
+    const fileSize = document.getElementById("fileSize");
+    const changeFile = document.getElementById("changeFile");
+    const convertButton = document.getElementById("convertButton");
+    const status = document.getElementById("status");
+
+    const result = document.getElementById("result");
+    const previewImage = document.getElementById("previewImage");
+    const originalSize = document.getElementById("originalSize");
+    const outputSize = document.getElementById("outputSize");
+    const dimensions = document.getElementById("dimensions");
+
+    const downloadButton = document.getElementById("downloadButton");
+    const resetButton = document.getElementById("resetButton");
+
+    const RECENT_KEY = "kyvorix_recent_tools";
+
+    let selectedFile = null;
+    let outputUrl = null;
+    let previewUrl = null;
+
+    function formatFileSize(bytes) {
+        if (bytes < 1024) {
+            return `${bytes} B`;
+        }
+
+        if (bytes < 1024 * 1024) {
+            return `${(bytes / 1024).toFixed(1)} KB`;
+        }
+
+        return `${(bytes / (1024 * 1024)).toFixed(2)} MB`;
+    }
+
+    function setStatus(message, type = "") {
+        status.textContent = message;
+        status.className = "status";
+
+        if (type) {
+            status.classList.add(type);
+        }
+    }
+
+    function trackEvent(name, params = {}) {
+        if (typeof window.gtag === "function") {
+            window.gtag("event", name, params);
+        }
+    }
+
+    function rememberTool() {
+        try {
+            const recent = JSON.parse(
+                localStorage.getItem(RECENT_KEY) || "[]"
+            );
+
+            const current = "tools/webp-to-png.html";
+
+            const updated = [
+                current,
+                ...recent.filter(item => item !== current)
+            ].slice(0, 6);
+
+            localStorage.setItem(
+                RECENT_KEY,
+                JSON.stringify(updated)
+            );
+        } catch (error) {
+            console.warn("Could not save recent tool.", error);
+        }
+    }
+
+    function cleanupOutput() {
+        if (outputUrl) {
+            URL.revokeObjectURL(outputUrl);
+            outputUrl = null;
+        }
+
+        if (previewUrl) {
+            URL.revokeObjectURL(previewUrl);
+            previewUrl = null;
+        }
+
+        previewImage.removeAttribute("src");
+        downloadButton.removeAttribute("href");
+    }
+
+    function resetConverter() {
+        cleanupOutput();
+
+        selectedFile = null;
+
+        fileInput.value = "";
+
+        fileCard.classList.remove("show");
+
+        fileName.textContent = "";
+        fileSize.textContent = "";
+
+        convertButton.disabled = true;
+
+        result.classList.remove("show");
+
+        originalSize.textContent = "—";
+        outputSize.textContent = "—";
+        dimensions.textContent = "—";
+
+        setStatus("");
+    }
+
+    function handleFile(file) {
+        if (!file) {
+            return;
+        }
+
+        const isWebP =
+            file.type === "image/webp" ||
+            /\.webp$/i.test(file.name);
+
+        if (!isWebP) {
+            resetConverter();
+
+            setStatus(
+                "Please select a WebP image.",
+                "error"
+            );
+
+            trackEvent("conversion_error", {
+                tool: "webp_to_png",
+                reason: "invalid_file_type"
+            });
+
+            return;
+        }
+
+        selectedFile = file;
+
+        fileName.textContent = file.name;
+        fileSize.textContent = formatFileSize(file.size);
+
+        fileCard.classList.add("show");
+
+        convertButton.disabled = false;
+
+        result.classList.remove("show");
+
+        setStatus(
+            "Image ready to convert."
+        );
+
+        rememberTool();
+
+        trackEvent("file_selected", {
+            tool: "webp_to_png",
+            file_type: "webp"
+        });
+    }
+
+    function convertToPng() {
+        if (!selectedFile) {
+            setStatus(
+                "Please select a WebP image first.",
+                "error"
+            );
+
+            return;
+        }
+
+        convertButton.disabled = true;
+
+        result.classList.remove("show");
+
+        setStatus("Converting...");
+
+        trackEvent("conversion_started", {
+            tool: "webp_to_png"
+        });
+
+        const sourceUrl =
+            URL.createObjectURL(selectedFile);
+
+        const image = new Image();
+
+        image.onload = () => {
+            try {
+                if (
+                    !image.naturalWidth ||
+                    !image.naturalHeight
+                ) {
+                    throw new Error(
+                        "Invalid image dimensions."
+                    );
+                }
+
+                const canvas =
+                    document.createElement("canvas");
+
+                canvas.width = image.naturalWidth;
+                canvas.height = image.naturalHeight;
+
+                const context =
+                    canvas.getContext("2d");
+
+                if (!context) {
+                    throw new Error(
+                        "Canvas is not supported."
+                    );
+                }
+
+                /*
+                 * Do not paint a background.
+                 * PNG supports transparency.
+                 */
+                context.clearRect(
+                    0,
+                    0,
+                    canvas.width,
+                    canvas.height
+                );
+
+                context.drawImage(
+                    image,
+                    0,
+                    0,
+                    canvas.width,
+                    canvas.height
+                );
+
+                canvas.toBlob(
+                    blob => {
+                        URL.revokeObjectURL(sourceUrl);
+
+                        if (!blob) {
+                            throw new Error(
+                                "Could not create PNG."
+                            );
+                        }
+
+                        outputUrl =
+                            URL.createObjectURL(blob);
+
+                        const baseName =
+                            selectedFile.name.replace(
+                                /\.webp$/i,
+                                ""
+                            );
+
+                        const outputName =
+                            `${baseName}.png`;
+
+                        downloadButton.href =
+                            outputUrl;
+
+                        downloadButton.download =
+                            outputName;
+
+                        previewUrl =
+                            URL.createObjectURL(blob);
+
+                        previewImage.src =
+                            previewUrl;
+
+                        originalSize.textContent =
+                            formatFileSize(
+                                selectedFile.size
+                            );
+
+                        outputSize.textContent =
+                            formatFileSize(
+                                blob.size
+                            );
+
+                        dimensions.textContent =
+                            `${canvas.width} × ${canvas.height}`;
+
+                        result.classList.add("show");
+
+                        setStatus(
+                            "Conversion complete. Your PNG is ready.",
+                            "success"
+                        );
+
+                        trackEvent(
+                            "conversion_completed",
+                            {
+                                tool: "webp_to_png",
+                                output_type: "png"
+                            }
+                        );
+
+                        convertButton.disabled = false;
+                    },
+                    "image/png"
+                );
+
+            } catch (error) {
+                console.error(error);
+
+                URL.revokeObjectURL(sourceUrl);
+
+                setStatus(
+                    "Conversion failed. Please try another WebP image.",
+                    "error"
+                );
+
+                convertButton.disabled = false;
+
+                trackEvent("conversion_error", {
+                    tool: "webp_to_png",
+                    reason: "conversion_failed"
+                });
+            }
+        };
+
+        image.onerror = () => {
+            URL.revokeObjectURL(sourceUrl);
+
+            setStatus(
+                "Unable to read the WebP image.",
+                "error"
+            );
+
+            convertButton.disabled = false;
+
+            trackEvent("conversion_error", {
+                tool: "webp_to_png",
+                reason: "image_load_failed"
+            });
+        };
+
+        image.src = sourceUrl;
+    }
+
+    fileInput.addEventListener(
+        "change",
+        event => {
+            handleFile(event.target.files[0]);
+        }
+    );
+
+    changeFile.addEventListener(
+        "click",
+        () => {
+            fileInput.click();
+        }
+    );
+
+    dropZone.addEventListener(
+        "dragover",
+        event => {
+            event.preventDefault();
+            dropZone.classList.add("dragover");
+        }
+    );
+
+    dropZone.addEventListener(
+        "dragleave",
+        () => {
+            dropZone.classList.remove("dragover");
+        }
+    );
+
+    dropZone.addEventListener(
+        "drop",
+        event => {
+            event.preventDefault();
+
+            dropZone.classList.remove("dragover");
+
+            const file =
+                event.dataTransfer.files[0];
+
+            handleFile(file);
+        }
+    );
+
+    dropZone.addEventListener(
+        "keydown",
+        event => {
+            if (
+                event.key === "Enter" ||
+                event.key === " "
+            ) {
+                event.preventDefault();
+                fileInput.click();
+            }
+        }
+    );
+
+    convertButton.addEventListener(
+        "click",
+        convertToPng
+    );
+
+    downloadButton.addEventListener(
+        "click",
+        () => {
+            trackEvent("download", {
+                tool: "webp_to_png",
+                file_type: "png"
+            });
+        }
+    );
+
+    resetButton.addEventListener(
+        "click",
+        resetConverter
+    );
+
+    window.addEventListener(
+        "beforeunload",
+        cleanupOutput
+    );
+})();
+</script>
+
+</body>
+</html>

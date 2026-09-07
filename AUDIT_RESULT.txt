@@ -1,0 +1,142 @@
+﻿============================================================
+KYVORIX - AUDITORIA AUTOMATICA
+Data: 2026-09-06 18:36:19
+============================================================
+
+## 1. ESTRUTURA
+[OK] public/ encontrada
+[OK] index.html
+[OK] about.html
+[OK] contact.html
+[OK] privacy-policy.html
+[OK] terms.html
+[OK] robots.txt
+[OK] sitemap.xml
+[OK] style.css
+[OK] script.js
+[OK] kyvorix-enhancements.css
+[OK] kyvorix-enhancements.js
+
+## 2. PAGINAS HTML
+Total HTML encontrados: 20
+[OK] TITLE: about.html
+[OK] DESCRIPTION: about.html
+[OK] UTF-8: about.html
+[OK] TITLE: contact.html
+[OK] DESCRIPTION: contact.html
+[OK] UTF-8: contact.html
+[OK] TITLE: index.html
+[OK] DESCRIPTION: index.html
+[OK] UTF-8: index.html
+[OK] TITLE: privacy-policy.html
+[OK] DESCRIPTION: privacy-policy.html
+[OK] UTF-8: privacy-policy.html
+[OK] TITLE: terms.html
+[OK] DESCRIPTION: terms.html
+[OK] UTF-8: terms.html
+[OK] TITLE: tools\heic-to-jpg.html
+[OK] DESCRIPTION: tools\heic-to-jpg.html
+[OK] UTF-8: tools\heic-to-jpg.html
+[OK] TITLE: tools\image-compressor.html
+[OK] DESCRIPTION: tools\image-compressor.html
+[OK] UTF-8: tools\image-compressor.html
+[OK] TITLE: tools\image-cropper.html
+[OK] DESCRIPTION: tools\image-cropper.html
+[OK] UTF-8: tools\image-cropper.html
+[OK] TITLE: tools\image-resizer.html
+[OK] DESCRIPTION: tools\image-resizer.html
+[OK] UTF-8: tools\image-resizer.html
+[OK] TITLE: tools\image-to-pdf.html
+[OK] DESCRIPTION: tools\image-to-pdf.html
+[OK] UTF-8: tools\image-to-pdf.html
+[OK] TITLE: tools\jpg-compressor.html
+[OK] DESCRIPTION: tools\jpg-compressor.html
+[OK] UTF-8: tools\jpg-compressor.html
+[OK] TITLE: tools\jpg-to-png.html
+[OK] DESCRIPTION: tools\jpg-to-png.html
+[OK] UTF-8: tools\jpg-to-png.html
+[OK] TITLE: tools\jpg-to-webp.html
+[OK] DESCRIPTION: tools\jpg-to-webp.html
+[OK] UTF-8: tools\jpg-to-webp.html
+[OK] TITLE: tools\pdf-to-jpg.html
+[OK] DESCRIPTION: tools\pdf-to-jpg.html
+[OK] UTF-8: tools\pdf-to-jpg.html
+[OK] TITLE: tools\png-compressor.html
+[OK] DESCRIPTION: tools\png-compressor.html
+[OK] UTF-8: tools\png-compressor.html
+[OK] TITLE: tools\png-to-jpg.html
+[OK] DESCRIPTION: tools\png-to-jpg.html
+[OK] UTF-8: tools\png-to-jpg.html
+[OK] TITLE: tools\png-to-webp.html
+[OK] DESCRIPTION: tools\png-to-webp.html
+[OK] UTF-8: tools\png-to-webp.html
+[OK] TITLE: tools\webp-compressor.html
+[OK] DESCRIPTION: tools\webp-compressor.html
+[OK] UTF-8: tools\webp-compressor.html
+[OK] TITLE: tools\webp-to-jpg.html
+[OK] DESCRIPTION: tools\webp-to-jpg.html
+[OK] UTF-8: tools\webp-to-jpg.html
+[OK] TITLE: tools\webp-to-png.html
+[OK] DESCRIPTION: tools\webp-to-png.html
+[OK] UTF-8: tools\webp-to-png.html
+
+## 3. LINKS INTERNOS
+[OK] Nenhum link interno quebrado encontrado
+
+## 4. JS / CSS
+[OK] Referencias JS/CSS locais encontradas
+
+## 5. HEIC2ANY
+[OK] heic2any.min.js encontrado
+Tamanho: 1.29 MB
+Paginas que referenciam heic2any: 3
+
+## 6. UTF-8 / MOJIBAKE
+[OK] Nenhum padrao obvio de mojibake encontrado
+
+## 7. SEO TECNICO
+[OK] robots.txt encontrado
+[OK] robots.txt referencia Sitemap
+[OK] sitemap.xml encontrado
+[OK] sitemap contem kyvorixapp.com
+
+## 8. CANONICAL
+[OK] Canonical: about.html
+[OK] Canonical: contact.html
+[OK] Canonical: index.html
+[OK] Canonical: privacy-policy.html
+[OK] Canonical: terms.html
+[OK] Canonical: tools\heic-to-jpg.html
+[OK] Canonical: tools\image-compressor.html
+[OK] Canonical: tools\image-cropper.html
+[OK] Canonical: tools\image-resizer.html
+[OK] Canonical: tools\image-to-pdf.html
+[OK] Canonical: tools\jpg-compressor.html
+[OK] Canonical: tools\jpg-to-png.html
+[OK] Canonical: tools\jpg-to-webp.html
+[OK] Canonical: tools\pdf-to-jpg.html
+[OK] Canonical: tools\png-compressor.html
+[OK] Canonical: tools\png-to-jpg.html
+[OK] Canonical: tools\png-to-webp.html
+[OK] Canonical: tools\webp-compressor.html
+[OK] Canonical: tools\webp-to-jpg.html
+[OK] Canonical: tools\webp-to-png.html
+
+## 9. CONFIGURACAO
+[OK] package.json encontrado
+Nome: 
+Scripts: dev, deploy
+[OK] wrangler.jsonc encontrado
+
+============================================================
+RESUMO
+============================================================
+HTML: 20
+Links quebrados: 0
+Referencias JS/CSS quebradas: 0
+Avisos mojibake: 0
+
+ERROS: 0
+AVISOS: 0
+
+RESULTADO: NENHUM ERRO AUTOMATICO CRITICO ENCONTRADO

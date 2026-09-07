@@ -1,0 +1,260 @@
+﻿C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\about.html : 11 : <link rel="canonical" href="https://kyvorixapp.com/about.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\about.html : 19 : <link rel="stylesheet" href="style.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\about.html : 20 : <link rel="stylesheet" href="kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\about.html : 83 : <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\about.html : 97 : <a href="index.html" class="logo">Kyvorix</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\about.html : 99 : <a href="index.html">Tools</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\about.html : 100 : <a href="about.html">About</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\about.html : 101 : <a href="contact.html">Contact</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\about.html : 166 : <a href="contact.html">Contact page</a> to get in touch.
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\about.html : 180 : <a href="privacy-policy.html">Privacy Policy</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\about.html : 181 : <a href="terms.html">Terms</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\about.html : 182 : <a href="about.html">About</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\about.html : 183 : <a href="contact.html">Contact</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\contact.html : 11 : <link rel="canonical" href="https://kyvorixapp.com/contact.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\contact.html : 19 : <link rel="stylesheet" href="style.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\contact.html : 20 : <link rel="stylesheet" href="kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\contact.html : 83 : <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\contact.html : 97 : <a href="index.html" class="logo">Kyvorix</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\contact.html : 99 : <a href="index.html">Tools</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\contact.html : 100 : <a href="about.html">About</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\contact.html : 101 : <a href="contact.html">Contact</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\contact.html : 153 : reference the <a href="privacy-policy.html">Privacy Policy</a>.
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\contact.html : 167 : <a href="privacy-policy.html">Privacy Policy</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\contact.html : 168 : <a href="terms.html">Terms</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\contact.html : 169 : <a href="about.html">About</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\contact.html : 170 : <a href="contact.html">Contact</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 13 : <link rel="canonical" href="https://kyvorixapp.com/">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 21 : <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 34 : <link rel="stylesheet" href="style.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 35 : <link rel="stylesheet" href="kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 43 : <a href="index.html" class="logo" aria-label="Kyvorix Tools home">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 48 : <a href="#tools">Tools</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 49 : <a href="#about">About</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 75 : <a href="#tools" class="primary-button" id="exploreToolsButton">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 134 : <a href="tools/jpg-to-png.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 156 : <a href="tools/png-to-jpg.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 178 : <a href="tools/jpg-to-webp.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 200 : <a href="tools/webp-to-jpg.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 222 : <a href="tools/png-to-webp.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 244 : <a href="tools/webp-to-png.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 266 : <a href="tools/heic-to-jpg.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 311 : <a href="tools/image-compressor.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 333 : <a href="tools/jpg-compressor.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 355 : <a href="tools/png-compressor.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 377 : <a href="tools/webp-compressor.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 422 : <a href="tools/image-resizer.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 444 : <a href="tools/image-cropper.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 489 : <a href="tools/image-to-pdf.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 511 : <a href="tools/pdf-to-jpg.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 549 : <a class="tool-card" href="tools/jpg-to-webp.html"><div class="tool-icon">01</div><div class="tool-info"><h3>Optimize for the web</h3><p>Convert JPG images to WebP for efficient web delivery.</p></div><div class="tool-arrow">→</div></a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 550 : <a class="tool-card" href="tools/image-compressor.html"><div class="tool-icon">02</div><div class="tool-info"><h3>Reduce file size</h3><p>Compress an image when upload limits or storage matter.</p></div><div class="tool-arrow">→</div></a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 551 : <a class="tool-card" href="tools/image-resizer.html"><div class="tool-icon">03</div><div class="tool-info"><h3>Resize an image</h3><p>Set the dimensions you need before sharing or publishing.</p></div><div class="tool-arrow">→</div></a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 552 : <a class="tool-card" href="tools/image-to-pdf.html"><div class="tool-icon">04</div><div class="tool-info"><h3>Turn images into a PDF</h3><p>Create a convenient PDF from your image directly in your browser.</p></div><div class="tool-arrow">→</div></a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 638 : <a href="index.html" class="logo">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 651 : <a href="#tools">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 655 : <a href="#about">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 659 : <a href="privacy-policy.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 663 : <a href="terms.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 667 : <a href="contact.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 689 : <script src="script.js"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\index.html : 743 : <script src="kyvorix-enhancements.js"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\privacy-policy.html : 11 : <link rel="canonical" href="https://kyvorixapp.com/privacy-policy.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\privacy-policy.html : 19 : <link rel="stylesheet" href="style.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\privacy-policy.html : 20 : <link rel="stylesheet" href="kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\privacy-policy.html : 83 : <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\privacy-policy.html : 97 : <a href="index.html" class="logo">Kyvorix</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\privacy-policy.html : 99 : <a href="index.html">Tools</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\privacy-policy.html : 100 : <a href="about.html">About</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\privacy-policy.html : 101 : <a href="contact.html">Contact</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\privacy-policy.html : 231 : Kyvorix, please use the <a href="contact.html">Contact page</a>.
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\privacy-policy.html : 245 : <a href="privacy-policy.html">Privacy Policy</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\privacy-policy.html : 246 : <a href="terms.html">Terms</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\privacy-policy.html : 247 : <a href="about.html">About</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\privacy-policy.html : 248 : <a href="contact.html">Contact</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\terms.html : 11 : <link rel="canonical" href="https://kyvorixapp.com/terms.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\terms.html : 19 : <link rel="stylesheet" href="style.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\terms.html : 20 : <link rel="stylesheet" href="kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\terms.html : 83 : <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\terms.html : 97 : <a href="index.html" class="logo">Kyvorix</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\terms.html : 99 : <a href="index.html">Tools</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\terms.html : 100 : <a href="about.html">About</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\terms.html : 101 : <a href="contact.html">Contact</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\terms.html : 225 : <a href="contact.html">Contact page</a>.
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\terms.html : 239 : <a href="privacy-policy.html">Privacy Policy</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\terms.html : 240 : <a href="terms.html">Terms</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\terms.html : 241 : <a href="about.html">About</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\terms.html : 242 : <a href="contact.html">Contact</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\heic-to-jpg.html : 17 : <link rel="canonical" href="https://kyvorixapp.com/tools/heic-to-jpg.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\heic-to-jpg.html : 36 : src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\heic-to-jpg.html : 118 : <link rel="stylesheet" href="../style.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\heic-to-jpg.html : 119 : <link rel="stylesheet" href="../kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\heic-to-jpg.html : 808 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\heic-to-jpg.html : 815 : <a href="../index.html">Home</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\heic-to-jpg.html : 816 : <a href="../index.html#tools">Tools</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\heic-to-jpg.html : 1377 : href="jpg-to-png.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\heic-to-jpg.html : 1391 : href="png-to-jpg.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\heic-to-jpg.html : 1405 : href="jpg-to-webp.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\heic-to-jpg.html : 1419 : href="image-compressor.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\heic-to-jpg.html : 1437 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\heic-to-jpg.html : 1467 : <a href="../index.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\heic-to-jpg.html : 1471 : <a href="../index.html#tools">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\heic-to-jpg.html : 1489 : <script src="../js/heic2any.min.js"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-compressor.html : 12 : <link rel="canonical" href="https://kyvorixapp.com/tools/image-compressor.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-compressor.html : 21 : <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-compressor.html : 34 : <link rel="stylesheet" href="../style.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-compressor.html : 35 : <link rel="stylesheet" href="../kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-compressor.html : 780 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-compressor.html : 787 : <a href="../index.html">Home</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-compressor.html : 788 : <a href="../index.html#tools">Tools</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-compressor.html : 1244 : <a href="jpg-compressor.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-compressor.html : 1248 : <a href="png-compressor.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-compressor.html : 1252 : <a href="webp-compressor.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-compressor.html : 1256 : <a href="jpg-to-webp.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-compressor.html : 1264 : href="../index.html#tools"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-compressor.html : 1283 : <a href="../index.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-compressor.html : 1289 : <a href="../index.html#tools">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-cropper.html : 8 : <link rel="canonical" href="https://kyvorixapp.com/tools/image-cropper.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-cropper.html : 14 : <link rel="stylesheet" href="../style.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-cropper.html : 15 : <link rel="stylesheet" href="../kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-cropper.html : 58 : <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-cropper.html : 108 : <a class="brand" href="../index.html">Kyvorix</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-cropper.html : 110 : <a href="../index.html">Tools</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-cropper.html : 111 : <a href="../index.html#about">About</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-cropper.html : 192 : <a class="button button-primary" id="downloadButton" href="#" download>Download image</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-resizer.html : 11 : <link rel="canonical" href="https://kyvorixapp.com/tools/image-resizer.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-resizer.html : 17 : <link rel="stylesheet" href="../style.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-resizer.html : 18 : <link rel="stylesheet" href="../kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-resizer.html : 20 : <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-resizer.html : 264 : <a href="../index.html" class="brand">Kyvorix</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-resizer.html : 267 : <a href="../index.html">Tools</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-resizer.html : 268 : <a href="../index.html#about">About</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-resizer.html : 370 : <a class="btn btn-primary" id="downloadButton" href="#" download>Download image</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-to-pdf.html : 29 : <link rel="canonical" href="https://kyvorixapp.com/tools/image-to-pdf.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-to-pdf.html : 54 : src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-to-pdf.html : 653 : <link rel="stylesheet" href="../kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-to-pdf.html : 663 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-to-pdf.html : 1078 : href="image-compressor.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-to-pdf.html : 1093 : href="image-resizer.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-to-pdf.html : 1108 : href="image-cropper.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-to-pdf.html : 1123 : href="jpg-to-png.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-to-pdf.html : 1142 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-to-pdf.html : 1154 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\image-to-pdf.html : 2483 : <script src="../kyvorix-enhancements.js"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-compressor.html : 12 : <link rel="canonical" href="https://kyvorixapp.com/tools/jpg-compressor.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-compressor.html : 21 : <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-compressor.html : 30 : <link rel="stylesheet" href="../style.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-compressor.html : 31 : <link rel="stylesheet" href="../kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-compressor.html : 724 : <a class="logo" href="../index.html" aria-label="Kyvorix home">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-compressor.html : 729 : <a href="../index.html">Home</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-compressor.html : 730 : <a href="../index.html#tools">Tools</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-compressor.html : 1034 : <a href="jpg-to-webp.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-compressor.html : 1038 : <a href="webp-to-jpg.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-compressor.html : 1042 : <a href="png-to-webp.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-compressor.html : 1046 : <a href="image-compressor.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-compressor.html : 1054 : href="../index.html#tools"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-compressor.html : 1068 : <a href="../index.html">Home</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-compressor.html : 1070 : <a href="../index.html#tools">Tools</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-png.html : 29 : <link rel="canonical" href="https://kyvorixapp.com/tools/jpg-to-png.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-png.html : 55 : src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-png.html : 563 : <link rel="stylesheet" href="../kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-png.html : 571 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-png.html : 867 : href="png-to-jpg.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-png.html : 877 : href="../index.html#tools"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-png.html : 890 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-png.html : 901 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-png.html : 1298 : <script src="../kyvorix-enhancements.js"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-webp.html : 18 : <link rel="canonical" href="https://kyvorixapp.com/tools/jpg-to-webp.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-webp.html : 38 : <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-webp.html : 1016 : .nav a[href="#tools"] {
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-webp.html : 1052 : <a class="logo" href="../index.html" aria-label="Kyvorix Tools home">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-webp.html : 1057 : <a href="../index.html">Home</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-webp.html : 1058 : <a href="../index.html#tools">Tools</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-webp.html : 1247 : href="#"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-webp.html : 1493 : href="jpg-to-png.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-webp.html : 1504 : href="png-to-jpg.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-webp.html : 1515 : href="../index.html#tools"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-webp.html : 1530 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\jpg-to-webp.html : 1542 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\pdf-to-jpg.html : 29 : <link rel="canonical" href="https://kyvorixapp.com/tools/pdf-to-jpg.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\pdf-to-jpg.html : 54 : src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\pdf-to-jpg.html : 634 : <link rel="stylesheet" href="../kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\pdf-to-jpg.html : 644 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\pdf-to-jpg.html : 1026 : href="image-to-pdf.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\pdf-to-jpg.html : 1041 : href="jpg-to-png.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\pdf-to-jpg.html : 1056 : href="image-compressor.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\pdf-to-jpg.html : 1071 : href="image-resizer.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\pdf-to-jpg.html : 1090 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\pdf-to-jpg.html : 1102 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\pdf-to-jpg.html : 1834 : <script src="../kyvorix-enhancements.js"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-compressor.html : 29 : <link rel="canonical" href="https://kyvorixapp.com/tools/png-compressor.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-compressor.html : 54 : src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-compressor.html : 586 : <link rel="stylesheet" href="../kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-compressor.html : 596 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-compressor.html : 1024 : href="image-compressor.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-compressor.html : 1037 : href="jpg-compressor.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-compressor.html : 1050 : href="png-to-webp.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-compressor.html : 1063 : href="image-resizer.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-compressor.html : 1080 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-compressor.html : 1092 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-compressor.html : 1769 : <script src="../kyvorix-enhancements.js"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-jpg.html : 29 : <link rel="canonical" href="https://kyvorixapp.com/tools/png-to-jpg.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-jpg.html : 55 : src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-jpg.html : 598 : <link rel="stylesheet" href="../kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-jpg.html : 606 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-jpg.html : 953 : href="jpg-to-png.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-jpg.html : 964 : href="../index.html#tools"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-jpg.html : 979 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-jpg.html : 991 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-jpg.html : 1471 : <script src="../kyvorix-enhancements.js"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-webp.html : 4 : <link rel="canonical" href="https://kyvorixapp.com/tools/png-to-webp.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-webp.html : 43 : <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-webp.html : 56 : <link rel="stylesheet" href="../style.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-webp.html : 57 : <link rel="stylesheet" href="../kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-webp.html : 745 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-webp.html : 752 : <a href="../index.html">Home</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-webp.html : 753 : <a href="../index.html#tools">Tools</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-webp.html : 1236 : href="jpg-to-webp.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-webp.html : 1250 : href="webp-to-png.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-webp.html : 1264 : href="webp-to-jpg.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-webp.html : 1278 : href="image-compressor.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-webp.html : 1296 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-webp.html : 1323 : <a href="../index.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\png-to-webp.html : 1327 : <a href="../index.html#tools">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-compressor.html : 29 : <link rel="canonical" href="https://kyvorixapp.com/tools/webp-compressor.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-compressor.html : 54 : src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-compressor.html : 621 : <link rel="stylesheet" href="../kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-compressor.html : 631 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-compressor.html : 1071 : href="image-compressor.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-compressor.html : 1086 : href="jpg-compressor.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-compressor.html : 1101 : href="png-compressor.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-compressor.html : 1116 : href="jpg-to-webp.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-compressor.html : 1135 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-compressor.html : 1147 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-compressor.html : 1839 : <script src="../kyvorix-enhancements.js"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-jpg.html : 4 : <link rel="canonical" href="https://kyvorixapp.com/tools/webp-to-jpg.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-jpg.html : 53 : <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"></script>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-jpg.html : 61 : <link rel="stylesheet" href="../style.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-jpg.html : 62 : <link rel="stylesheet" href="../kyvorix-enhancements.css">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-jpg.html : 707 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-jpg.html : 714 : <a href="../index.html">Home</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-jpg.html : 715 : <a href="../index.html#tools">Tools</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-jpg.html : 1009 : <a href="jpg-to-webp.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-jpg.html : 1015 : <a href="webp-to-png.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-jpg.html : 1021 : <a href="png-to-webp.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-jpg.html : 1058 : <a href="../index.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-jpg.html : 1062 : <a href="../index.html#tools">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-png.html : 28 : <link rel="canonical" href="https://kyvorixapp.com/tools/webp-to-png.html">
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-png.html : 53 : src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-png.html : 130 : href="../style.css"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-png.html : 135 : href="../kyvorix-enhancements.css"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-png.html : 781 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-png.html : 788 : <a href="../index.html">Tools</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-png.html : 789 : <a href="../index.html#about">About</a>
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-png.html : 936 : href="#"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-png.html : 1173 : href="webp-to-jpg.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-png.html : 1186 : href="jpg-to-webp.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-png.html : 1199 : href="jpg-to-png.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-png.html : 1212 : href="png-to-jpg.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-png.html : 1229 : href="../index.html"
+C:\Users\PC\Desktop\KYVORIX_FINAL_AUDITADO\KYVORIX_FINAL_AUDITADO\public\tools\webp-to-png.html : 1242 : href="../index.html"
