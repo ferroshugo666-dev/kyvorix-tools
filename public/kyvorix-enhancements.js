@@ -16,7 +16,7 @@
     // Add file metadata + simple progress to tool pages without touching tool logic.
     const input=document.querySelector('input[type=file]');
     const result=document.getElementById('result');
-    if(input && !document.querySelector('.kyv-file-details')){
+    if(input && !document.querySelector('.kyv-file-details') && !document.querySelector('#results, #resizeResults')){
       const details=document.createElement('div');details.className='kyv-file-details';
       const status=document.createElement('div');status.className='kyv-status';status.hidden=true;
       const progress=document.createElement('div');progress.className='kyv-progress';progress.hidden=true;progress.innerHTML='<i></i>';

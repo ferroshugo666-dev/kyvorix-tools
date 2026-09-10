@@ -36,6 +36,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const cards = [...document.querySelectorAll(".tool-card[data-tool]")];
   const filterTabs = [...document.querySelectorAll(".filter-tab")];
   const resultCount = document.getElementById("toolResultCount");
+  const noResults = document.getElementById("toolNoResults");
+  const clearSearch = document.getElementById("clearToolSearch");
   let activeFilter = "all";
   const categoryFor = (card) => {
     const tool = card.dataset.tool || "";
@@ -57,6 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!hidden) visibleCount += 1;
     });
     if (resultCount) resultCount.textContent = `${visibleCount} ${visibleCount === 1 ? "tool" : "tools"}`;
+    if (noResults) noResults.hidden = visibleCount > 0;
   };
   if (search) search.addEventListener("input", updateToolView);
   filterTabs.forEach((tab) => tab.addEventListener("click", () => {
@@ -64,6 +67,13 @@ document.addEventListener("DOMContentLoaded", () => {
     filterTabs.forEach((item) => item.classList.toggle("is-active", item === tab));
     updateToolView();
   }));
+  clearSearch?.addEventListener("click", () => {
+    if (search) search.value = "";
+    activeFilter = "all";
+    filterTabs.forEach((item) => item.classList.toggle("is-active", item.dataset.filter === "all"));
+    updateToolView();
+    search?.focus();
+  });
   document.addEventListener("keydown", (event) => {
     const tag = document.activeElement?.tagName;
     if (event.key === "/" && tag !== "INPUT" && tag !== "TEXTAREA") {

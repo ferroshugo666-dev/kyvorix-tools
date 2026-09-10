@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="twitter:card" content="summary">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -946,7 +947,7 @@
               Compressed image
             </h2>
 
-            <span class="result-badge">
+            <span class="result-badge" id="resultBadge">
               Ready
             </span>
 
@@ -974,7 +975,7 @@
             </div>
 
             <div class="result-stat">
-              <span>Saved</span>
+              <span>Size change</span>
               <strong id="savedPercent">—</strong>
             </div>
 
@@ -1349,6 +1350,9 @@
 
     const outputFormat =
       document.getElementById("outputFormat");
+
+    const resultBadge =
+      document.getElementById("resultBadge");
 
     const downloadButton =
       document.getElementById("downloadButton");
@@ -1788,8 +1792,13 @@
 
                 savedPercent.textContent =
                   difference > 0
-                    ? `${roundedSaved.toFixed(1)}%`
-                    : "0%";
+                    ? `${roundedSaved.toFixed(1)}% smaller`
+                    : `${Math.abs(saved).toFixed(1)}% larger`;
+
+                resultBadge.textContent =
+                  difference > 0
+                    ? `${roundedSaved.toFixed(1)}% smaller`
+                    : "Try lower quality";
 
                 outputFormat.textContent =
                   extension

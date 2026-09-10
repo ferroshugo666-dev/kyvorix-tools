@@ -1,24 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta name="twitter:card" content="summary">
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Batch Image Converter | Kyvorix</title>
 <meta name="description" content="Convert multiple images to JPG, PNG or WebP in your browser. Private, fast and free.">
-<meta name="robots" content="index, follow"><link rel="canonical" href="https://kyvorixapp.com/tools/batch-image-converter">
-<meta property="og:type" content="website"><meta property="og:title" content="Batch Image Converter | Kyvorix"><meta property="og:description" content="Convert multiple images to JPG, PNG or WebP directly in your browser."><meta property="og:url" content="https://kyvorixapp.com/tools/batch-image-converter"><meta property="og:site_name" content="Kyvorix">
+<meta name="robots" content="index, follow"><link rel="canonical" href="https://kyvorixapp.com/tools/batch-image-converter.html">
+<meta property="og:type" content="website"><meta property="og:title" content="Batch Image Converter | Kyvorix"><meta property="og:description" content="Convert multiple images to JPG, PNG or WebP directly in your browser."><meta property="og:url" content="https://kyvorixapp.com/tools/batch-image-converter.html"><meta property="og:site_name" content="Kyvorix">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Batch Image Converter","url":"https://kyvorixapp.com/tools/batch-image-converter.html","description":"Convert multiple images to JPG, PNG or WebP directly in your browser.","applicationCategory":"MultimediaApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
 <link rel="stylesheet" href="../style.css"><link rel="stylesheet" href="../kyvorix-enhancements.css">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-KWWHTEZJR3');</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6997398456614782" crossorigin="anonymous"></script>
 </head>
 <body>
-<header class="site-header"><div class="container nav"><a href="../index" class="logo" aria-label="Kyvorix home">KYVORIX</a><nav aria-label="Main navigation"><a href="../index">Tools</a><a href="../index#how-it-works">How it works</a><a href="../contact">Contact</a></nav></div></header>
-<main><section class="tool-page"><div class="container tool-page-inner"><a class="back-link" href="../index">&lt;- Back to all tools</a><div class="section-label">CONVERT</div><h1>Batch Image Converter</h1><p class="tool-lead">Convert a group of images at once. Your files stay in this browser while each new copy is created.</p>
+<header class="site-header"><div class="container nav"><a href="../index.html" class="logo" aria-label="Kyvorix home">KYVORIX</a><nav aria-label="Main navigation"><a href="../index.html">Tools</a><a href="../index.html#how-it-works">How it works</a><a href="../contact.html">Contact</a></nav></div></header>
+<main><section class="tool-page"><div class="container tool-page-inner"><a class="back-link" href="../index.html">&lt;- Back to all tools</a><div class="section-label">CONVERT</div><h1>Batch Image Converter</h1><p class="tool-lead">Convert a group of images at once. Your files stay in this browser while each new copy is created.</p>
 <div class="tool-panel"><label class="upload-zone" for="batchInput"><span class="upload-icon">+</span><strong>Choose multiple images</strong><small>JPG, PNG or WebP. Select as many as you need.</small></label><input id="batchInput" type="file" accept="image/jpeg,image/png,image/webp" multiple hidden>
 <div class="batch-controls"><label>Output format<select id="format"><option value="image/webp">WebP</option><option value="image/jpeg">JPG</option><option value="image/png">PNG</option></select></label><label class="quality-control">Quality <output id="qualityValue">90%</output><input id="quality" type="range" min="50" max="100" value="90"></label></div>
 <div id="batchStatus" class="kyv-status" hidden></div><button id="convertButton" class="primary-button" type="button" disabled>Convert all images</button><div id="results" class="batch-results" hidden></div></div>
 <div class="kyv-tool-meta"><span class="kyv-chip">Local processing</span><span class="kyv-chip">Batch workflow</span><span class="kyv-chip">No account</span></div><section class="tool-explanation"><h2>Built for repeat work</h2><p>Prepare a whole folder for a website, shop or social campaign in one pass. Each output is named from the original file and can be downloaded individually.</p></section>
 </div></section></main>
-<footer><div class="container footer-top"><div><a href="../index" class="logo">KYVORIX</a><p>Free online tools for images and files.</p></div><nav aria-label="Footer navigation"><a href="../privacy-policy">Privacy Policy</a><a href="../terms">Terms</a><a href="../contact">Contact</a></nav></div></footer>
+<footer><div class="container footer-top"><div><a href="../index.html" class="logo">KYVORIX</a><p>Free online tools for images and files.</p></div><nav aria-label="Footer navigation"><a href="../privacy-policy.html">Privacy Policy</a><a href="../terms.html">Terms</a><a href="../contact.html">Contact</a></nav></div></footer>
 <script src="../kyvorix-enhancements.js"></script><script>
-(() => { const input=document.getElementById('batchInput'), format=document.getElementById('format'), quality=document.getElementById('quality'), qualityValue=document.getElementById('qualityValue'), button=document.getElementById('convertButton'), status=document.getElementById('batchStatus'), results=document.getElementById('results'); let files=[]; quality.addEventListener('input',()=>qualityValue.textContent=`${quality.value}%`); input.addEventListener('change',()=>{files=[...input.files];button.disabled=!files.length;status.hidden=!files.length;if(files.length)status.textContent=`${files.length} image${files.length===1?'':'s'} ready to convert.`;results.hidden=true}); button.addEventListener('click',async()=>{if(!files.length)return;button.disabled=true;status.hidden=false;status.textContent='Converting locally…';results.innerHTML='';results.hidden=false;for(const file of files){const image=new Image();const url=URL.createObjectURL(file);image.src=url;await new Promise(resolve=>{image.onload=resolve});const canvas=document.createElement('canvas');canvas.width=image.naturalWidth;canvas.height=image.naturalHeight;canvas.getContext('2d').drawImage(image,0,0);const type=format.value;const blob=await new Promise(resolve=>canvas.toBlob(resolve,type,Number(quality.value)/100));URL.revokeObjectURL(url);if(!blob)continue;const output=URL.createObjectURL(blob);const extension=type==='image/png'?'png':type==='image/jpeg'?'jpg':'webp';const name=`${file.name.replace(/\.[^.]+$/,'')}.${extension}`;const row=document.createElement('div');row.className='batch-result';row.innerHTML=`<strong>${name}</strong><span>${(blob.size/1024).toFixed(0)} KB</span><a class="secondary-button" href="${output}" download="${name}">Download</a>`;results.appendChild(row)}status.textContent=`${files.length} image${files.length===1?'':'s'} converted. Your originals were not changed.`;button.disabled=false}); })();
+(() => {
+	const input = document.getElementById('batchInput');
+	const format = document.getElementById('format');
+	const quality = document.getElementById('quality');
+	const qualityValue = document.getElementById('qualityValue');
+	const button = document.getElementById('convertButton');
+	const status = document.getElementById('batchStatus');
+	const results = document.getElementById('results');
+	let files = [];
+
+	quality.addEventListener('input', () => qualityValue.textContent = `${quality.value}%`);
+	input.addEventListener('change', () => {
+		files = [...input.files];
+		button.disabled = !files.length;
+		status.hidden = !files.length;
+		if (files.length) status.textContent = `${files.length} image${files.length === 1 ? '' : 's'} ready to convert.`;
+		results.hidden = true;
+	});
+
+	button.addEventListener('click', async () => {
+		if (!files.length) return;
+		button.disabled = true;
+		status.hidden = false;
+		status.textContent = 'Converting locally...';
+		results.innerHTML = '';
+		results.hidden = false;
+		let completed = 0;
+		let failed = 0;
+
+		for (const file of files) {
+			const image = new Image();
+			const url = URL.createObjectURL(file);
+			const loaded = await new Promise(resolve => {
+				image.onload = () => resolve(true);
+				image.onerror = () => resolve(false);
+				image.src = url;
+			});
+
+			if (!loaded) {
+				failed += 1;
+				URL.revokeObjectURL(url);
+				continue;
+			}
+
+			const canvas = document.createElement('canvas');
+			canvas.width = image.naturalWidth;
+			canvas.height = image.naturalHeight;
+			canvas.getContext('2d').drawImage(image, 0, 0);
+			const type = format.value;
+			const blob = await new Promise(resolve => canvas.toBlob(resolve, type, Number(quality.value) / 100));
+			URL.revokeObjectURL(url);
+			if (!blob) {
+				failed += 1;
+				continue;
+			}
+
+			completed += 1;
+			const output = URL.createObjectURL(blob);
+			const extension = type === 'image/png' ? 'png' : type === 'image/jpeg' ? 'jpg' : 'webp';
+			const name = `${file.name.replace(/\.[^.]+$/, '')}.${extension}`;
+			const row = document.createElement('div');
+			row.className = 'batch-result';
+			row.innerHTML = `<strong>${name}</strong><span>${(blob.size / 1024).toFixed(0)} KB</span><a class="secondary-button" href="${output}" download="${name}">Download</a>`;
+			results.appendChild(row);
+		}
+
+		status.textContent = `${completed} of ${files.length} image${files.length === 1 ? '' : 's'} converted${failed ? `; ${failed} could not be read.` : '.'}`;
+		button.disabled = false;
+	});
+})();
 </script></body></html>

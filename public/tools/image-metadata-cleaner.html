@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="twitter:card" content="summary">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Image Metadata Cleaner | Kyvorix</title>
@@ -12,6 +13,7 @@
   <meta property="og:description" content="Remove EXIF and embedded metadata from images directly in your browser.">
   <meta property="og:url" content="https://kyvorixapp.com/tools/image-metadata-cleaner">
   <meta property="og:site_name" content="Kyvorix">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Image Metadata Cleaner","url":"https://kyvorixapp.com/tools/image-metadata-cleaner.html","description":"Remove EXIF and embedded metadata from images directly in your browser.","applicationCategory":"MultimediaApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="../kyvorix-enhancements.css">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWWHTEZJR3"></script>
@@ -31,7 +33,7 @@
     <input id="imageInput" type="file" accept="image/jpeg,image/png,image/webp" hidden>
     <div id="fileStatus" class="kyv-status" hidden></div>
     <div class="tool-actions"><button id="cleanButton" class="primary-button" type="button" disabled>Remove metadata</button><a id="downloadButton" class="secondary-button" href="#" download hidden>Download clean image</a></div>
-    <div id="result" class="result-box" hidden></div>
+    <div id="result" class="result-box" role="status" aria-live="polite" hidden></div>
   </div>
   <div class="kyv-tool-meta"><span class="kyv-chip">Local processing</span><span class="kyv-chip">No account</span><span class="kyv-chip">Original stays untouched</span></div>
   <section class="tool-explanation"><h2>Why remove image metadata?</h2><p>Photos can contain location, device and timestamp information. Re-encoding the image creates a clean copy without changing your original file.</p></section>
@@ -50,18 +52,33 @@
   input.addEventListener('change', () => { file = input.files[0]; if (!file) return; status.textContent = `Selected: ${file.name}`; status.hidden = false; clean.disabled = false; download.hidden = true; result.hidden = true; });
   clean.addEventListener('click', () => {
     if (!file) return;
+    clean.disabled = true;
+    status.textContent = 'Removing metadata locally...';
     const image = new Image();
+    const sourceUrl = URL.createObjectURL(file);
     image.onload = () => {
       const canvas = document.createElement('canvas'); canvas.width = image.naturalWidth; canvas.height = image.naturalHeight;
       canvas.getContext('2d').drawImage(image, 0, 0);
       const type = file.type === 'image/png' ? 'image/png' : 'image/jpeg';
       canvas.toBlob((blob) => {
-        if (!blob) return;
+        URL.revokeObjectURL(sourceUrl);
+        if (!blob) {
+          clean.disabled = false;
+          status.textContent = 'Could not create a clean copy. Please try another image.';
+          return;
+        }
         const url = URL.createObjectURL(blob); download.href = url; download.download = `${file.name.replace(/\.[^.]+$/, '')}-clean.${type === 'image/png' ? 'png' : 'jpg'}`; download.hidden = false;
         result.textContent = `Clean copy ready. Original: ${(file.size / 1024).toFixed(0)} KB | New file: ${(blob.size / 1024).toFixed(0)} KB`; result.hidden = false;
+        status.textContent = 'Metadata removed. Your clean copy is ready.';
+        clean.disabled = false;
       }, type, .92);
     };
-    image.src = URL.createObjectURL(file);
+    image.onerror = () => {
+      URL.revokeObjectURL(sourceUrl);
+      clean.disabled = false;
+      status.textContent = 'Unable to read this image. Please try another file.';
+    };
+    image.src = sourceUrl;
   });
 })();
 </script>

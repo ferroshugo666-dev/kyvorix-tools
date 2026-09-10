@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="twitter:card" content="summary">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -600,6 +601,33 @@
             font-weight: 900;
             letter-spacing: 0.5px;
             text-transform: uppercase;
+        }
+
+        .result-preview {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 220px;
+            margin-top: 18px;
+            padding: 14px;
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 14px;
+            background:
+                linear-gradient(45deg, #202020 25%, transparent 25%),
+                linear-gradient(-45deg, #202020 25%, transparent 25%),
+                linear-gradient(45deg, transparent 75%, #202020 75%),
+                linear-gradient(-45deg, transparent 75%, #202020 75%);
+            background-size: 24px 24px;
+            background-position: 0 0, 0 12px, 12px -12px, -12px 0;
+            overflow: hidden;
+        }
+
+        .result-preview img {
+            display: block;
+            max-width: 100%;
+            max-height: 380px;
+            border-radius: 9px;
+            object-fit: contain;
         }
 
         .result-stats {
@@ -1275,6 +1303,13 @@
                 </div>
 
                 <div>
+
+                <div class="result-preview">
+                    <img
+                        id="resultPreview"
+                        alt="Converted WebP preview"
+                    >
+                </div>
                     <strong>Your file stays on your device.</strong>
                     The conversion happens locally in your browser.
                     Your JPG image does not need to be uploaded to Kyvorix.
@@ -1578,6 +1613,7 @@
     const originalSize = document.getElementById("originalSize");
     const outputSize = document.getElementById("outputSize");
     const sizeChange = document.getElementById("sizeChange");
+    const resultPreview = document.getElementById("resultPreview");
 
     const downloadButton = document.getElementById("downloadButton");
     const againButton = document.getElementById("againButton");
@@ -1645,6 +1681,7 @@
         result.classList.remove("show");
 
         previewImage.removeAttribute("src");
+        resultPreview.removeAttribute("src");
         downloadButton.removeAttribute("href");
 
         setStatus("");
@@ -1837,6 +1874,7 @@
 
                         downloadButton.href = downloadUrl;
                         downloadButton.download = outputName;
+                        resultPreview.src = downloadUrl;
 
                         originalSize.textContent =
                             formatFileSize(selectedFile.size);
