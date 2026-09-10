@@ -5,16 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Resize Image Online - Free Image Resizer | Kyvorix</title>
-  <meta name="description" content="Resize image online for free. Change JPG, PNG and WEBP dimensions quickly, keep the aspect ratio, and process everything in your browser.">
-<meta property="og:site_name" content="Kyvorix">
-<meta name="twitter:title" content="Resize Image Online - Free Image Resizer | Kyvorix">
-<meta name="twitter:description" content="Resize image online for free. Change JPG, PNG and WEBP dimensions quickly, keep the aspect ratio, and process everything in your browser.">
+  <title>Image Resizer — Resize JPG, PNG & WebP Online | Kyvorix</title>
+  <meta name="description" content="Resize JPG, PNG and WebP images online for free. Change image dimensions, keep the aspect ratio and process everything locally in your browser.">
   <meta name="robots" content="index,follow">
 
   <link rel="canonical" href="https://kyvorixapp.com/tools/image-resizer">
-  <meta property="og:title" content="Resize Image Online - Free Image Resizer | Kyvorix">
-  <meta property="og:description" content="Resize JPG, PNG and WEBP images directly in your browser. Free, private and easy to use.">
+  <meta property="og:title" content="Image Resizer — Resize Images Online | Kyvorix">
+  <meta property="og:description" content="Resize JPG, PNG and WebP images directly in your browser. Free, private and local.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://kyvorixapp.com/tools/image-resizer">
 
@@ -535,11 +532,11 @@
   function setRecentTool(){
     try{
       const items = JSON.parse(localStorage.getItem(RECENT_KEY) || "[]");
-      const filtered = items.filter(item => item && item.href !== "tools/image-resizer");
+      const filtered = items.filter(item => item && item.href !== "tools/image-resizer.html");
 
       filtered.unshift({
         name: "Image Resizer",
-        href: "tools/image-resizer",
+        href: "tools/image-resizer.html",
         time: Date.now()
       });
 
