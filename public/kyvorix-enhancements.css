@@ -25,7 +25,7 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid rgba(
 body{background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif}
 h1,h2,h3,.logo,.hero-console strong{font-family:"Space Grotesk",sans-serif}
 .site-header{background:rgba(247,246,241,.88)!important;border-color:rgba(16,42,46,.12)!important}
-.logo{color:var(--ink)}.logo::before{background:var(--coral);box-shadow:0 5px 15px rgba(232,109,82,.22)}
+.logo{color:var(--ink)}.logo::before{background:var(--ink) url("icon.svg") center / cover no-repeat;box-shadow:0 5px 15px rgba(232,109,82,.22)}
 nav a{color:var(--ink-soft)}nav a:hover{background:rgba(16,42,46,.07);color:var(--ink)}
 .hero{padding:88px 0 96px;background:var(--paper);isolation:isolate}
 .hero:before{left:auto;right:-100px;top:-110px;width:560px;height:560px;background:radial-gradient(circle,#d9eee5 0,rgba(217,238,229,.58) 36%,transparent 70%);filter:none;z-index:-1}

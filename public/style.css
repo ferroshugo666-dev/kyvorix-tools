@@ -93,7 +93,7 @@ button {
 }
 
 ::selection {
-  background: var(--black);
+  background: var(--black) url("icon.svg") center / cover no-repeat;
   color: var(--white);
 }
 
