@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kyvorixapp.com/about.html</loc>
+    <loc>https://kyvorixapp.com/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/contact.html</loc>
+    <loc>https://kyvorixapp.com/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -16,104 +16,105 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/privacy-policy.html</loc>
+    <loc>https://kyvorixapp.com/privacy-policy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/terms.html</loc>
+    <loc>https://kyvorixapp.com/terms</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/heic-to-jpg.html</loc>
+    <loc>https://kyvorixapp.com/tools/heic-to-jpg</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/batch-image-converter.html</loc>
+    <loc>https://kyvorixapp.com/tools/batch-image-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/image-compressor.html</loc>
+    <loc>https://kyvorixapp.com/tools/image-compressor</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/image-cropper.html</loc>
+    <loc>https://kyvorixapp.com/tools/image-cropper</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/image-metadata-cleaner.html</loc>
+    <loc>https://kyvorixapp.com/tools/image-metadata-cleaner</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/batch-image-resizer.html</loc>
+    <loc>https://kyvorixapp.com/tools/batch-image-resizer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/image-resizer.html</loc>
+    <loc>https://kyvorixapp.com/tools/image-resizer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/image-to-pdf.html</loc>
+    <loc>https://kyvorixapp.com/tools/image-to-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/jpg-compressor.html</loc>
+    <loc>https://kyvorixapp.com/tools/jpg-compressor</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/jpg-to-png.html</loc>
+    <loc>https://kyvorixapp.com/tools/jpg-to-png</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/jpg-to-webp.html</loc>
+    <loc>https://kyvorixapp.com/tools/jpg-to-webp</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/pdf-to-jpg.html</loc>
+    <loc>https://kyvorixapp.com/tools/pdf-to-jpg</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/png-compressor.html</loc>
+    <loc>https://kyvorixapp.com/tools/png-compressor</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/png-to-jpg.html</loc>
+    <loc>https://kyvorixapp.com/tools/png-to-jpg</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/png-to-webp.html</loc>
+    <loc>https://kyvorixapp.com/tools/png-to-webp</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/webp-compressor.html</loc>
+    <loc>https://kyvorixapp.com/tools/webp-compressor</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/webp-to-jpg.html</loc>
+    <loc>https://kyvorixapp.com/tools/webp-to-jpg</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kyvorixapp.com/tools/webp-to-png.html</loc>
+    <loc>https://kyvorixapp.com/tools/webp-to-png</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>
+
 
