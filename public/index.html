@@ -55,6 +55,7 @@ function gtag() {
     dataLayer.push(arguments);
 }
 
+gtag('consent', 'default', {'ad_storage': 'denied', 'ad_user_data': 'denied', 'ad_personalization': 'denied', 'analytics_storage': 'denied', 'wait_for_update': 500});
 gtag("js", new Date());
 gtag("config", "G-KWWHTEZJR3");
 </script>
@@ -876,6 +877,7 @@ document
 <script>
 document.addEventListener("DOMContentLoaded",()=>{const key="kyvorix_favorite_tools_v1",grid=document.getElementById("kyvFavoritesGrid");if(!grid)return;const all=[...document.querySelectorAll(".tool-card[data-tool]")];const render=()=>{let f=[];try{f=JSON.parse(localStorage.getItem(key)||"[]")}catch{}const selected=f.map(h=>all.find(c=>c.getAttribute("href")===h)).filter(Boolean);grid.innerHTML=selected.length?selected.map(c=>c.outerHTML).join(""):'<div class="kyv-empty">Use the ☆ button on any tool to save it here.</div>'};render();window.addEventListener("storage",render);document.addEventListener("click",e=>{if(e.target.closest(".kyv-favorite"))setTimeout(render,20)})});
 </script>
+  <script src="consent.js" defer></script>
 </body>
 </html>
 
