@@ -1,0 +1,4 @@
+*.backup.html
+*.backup.*
+*.bak
+*.orig
